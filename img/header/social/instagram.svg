@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_19" data-name="Rectangle 19" width="50" height="50" transform="translate(764 980)" fill="#000"/>
+    </clipPath>
+  </defs>
+  <g id="instagram" transform="translate(-764 -980)" clip-path="url(#clip-path)">
+    <g id="insta" transform="translate(764 979.816)">
+      <g id="Desktop" transform="translate(-527.912 -889.28)">
+        <g id="insta-2" data-name="insta" transform="translate(527.912 889.28)">
+          <g id="Group-3" transform="translate(0 0.092)">
+            <path id="Fill-1" d="M45.564,36.212A9.338,9.338,0,0,1,36.2,45.506H13.8a9.338,9.338,0,0,1-9.362-9.294V13.973A9.338,9.338,0,0,1,13.8,4.679H36.2a9.338,9.338,0,0,1,9.362,9.294ZM36.2.275H13.8A13.763,13.763,0,0,0,0,13.973v22.24a13.763,13.763,0,0,0,13.8,13.7H36.2A13.764,13.764,0,0,0,50,36.212V13.973A13.763,13.763,0,0,0,36.2.275Z" fill="#000" fill-rule="evenodd"/>
+          </g>
+          <path id="Fill-4" d="M25,33.569a8.386,8.386,0,1,1,8.448-8.385A8.426,8.426,0,0,1,25,33.569M25,12.4A12.79,12.79,0,1,0,37.884,25.184,12.851,12.851,0,0,0,25,12.4" fill="#000" fill-rule="evenodd"/>
+          <path id="Fill-6" d="M38.424,8.661a3.276,3.276,0,0,0-2.3.945,3.208,3.208,0,0,0,0,4.569,3.27,3.27,0,0,0,4.6,0,3.214,3.214,0,0,0,0-4.569,3.278,3.278,0,0,0-2.3-.945" fill="#000" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

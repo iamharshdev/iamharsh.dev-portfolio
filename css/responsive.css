@@ -1,0 +1,243 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 769px) { 
+
+    .logo img{
+        max-width:10%;
+        margin-left: 1rem;
+        }
+
+
+  .content{
+    width:100%;
+    height:auto;
+    margin-bottom: .5rem;
+    overflow: hidden;
+    position:relative;
+  }
+  
+  .content2{
+    width:100%;
+    height:auto;
+    margin-bottom: .5rem;
+    overflow: hidden;
+    position:relative;
+  }
+  
+
+  .content3{
+    width:100%;
+    margin-bottom: .5rem;
+    height:auto;
+    overflow: hidden;
+    position:relative;
+  }
+  
+.text h1{
+    font-size:26px;
+    text-align: center;
+}  
+
+.header_text2{
+    font-size:26px;
+    text-align: center;
+}
+
+.data{
+    font-size:16px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.explorebutton{
+    text-align: center;
+    padding-top:.5rem;
+}
+
+.explore_text_button{
+    max-width : 150%;
+    text-align: center;
+}
+
+.illustration_header img{
+    max-width:50%;
+    padding-bottom:2rem;
+}
+
+.illustration_header{
+text-align:centre; 
+margin: 0 auto; 
+}
+
+.socialmedia{
+    text-align: center;
+}
+
+.socialmedia ul{
+    padding-inline-start: 0;
+}
+    
+    .socialmedia ul li{
+        display: inline-block;
+        padding-right:1rem;
+    }
+    
+    .socialmedia ul li a img{
+      width:70%;
+      transition: .2s all ease-in-out;
+    }
+
+    .downarrow{
+        text-align: center;
+        padding-top:1rem;
+    } 
+    
+     .downarrow img{
+         width:8%;
+     } 
+
+     .skills_illustration{
+       display: none;
+    }
+    
+    .fron-end-logos-imgs{
+       text-align: center;
+    }
+
+    .front-end-logos{
+        width:80%;
+    }
+
+    .front_end_skills{
+       margin: 0 auto;
+       }
+    
+       .about_me{
+        background-position:center;
+        background-size:600px auto;
+        background-repeat: no-repeat;
+        margin-right:0;
+        margin-top: 2rem;
+    }
+
+    .ABOUT-heading{
+        padding-bottom:1rem;
+    }
+
+    .name span{
+        font-size:31px;
+    }
+    
+    .name{
+        font-size:1.5rem;
+        text-align: center;
+        padding-left:0;
+        padding-top: -2rem;
+    }
+
+    .age{
+        padding-left:0;
+        text-align: center;
+        font-size:1.5rem;
+        padding-top:.5rem;
+        padding-bottom:.5rem;
+    }
+
+    .about_me_text p{
+        padding-left:0;
+        font-family: 'Poppins', sans-serif;
+        line-height:1.5;
+    }
+
+    .about_me_text
+    { 
+    margin-left:1.5rem;
+}
+
+
+.illustration_about{
+   display: none;
+}
+
+.downarrow_about{
+    text-align: center;
+    padding-top:1rem;
+   
+} 
+
+ .downarrow_about img{
+     width:8%;
+ } 
+
+.project_heading{
+    font-size:1.2rem;
+    text-align: center;
+    padding-left: 0rem;
+}
+
+.portfolio-images{
+text-align: center;
+margin: 0 auto; 
+}
+
+   .CONTACT_heading{
+    background: #000;
+    COLOR:WHITE;
+    text-align:center;
+    margin: 0 auto;
+    max-width:90%;
+}
+
+   .CONTACT{
+    font-size:15px;
+}
+
+.hello{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+button[type="button"]{
+    font-size: 1.1rem;
+   padding-left: 1.3rem;
+   padding-right: 1.3rem;
+   padding-top: .6rem;
+   padding-bottom: .6rem;
+    }
+
+    .contact_illustration img{
+        max-width:100%;
+    }
+
+    .contact_illustration{
+        margin: 1rem;
+        padding-top: 0;
+    }
+
+    .downarrow_ending img{
+        width:8%;
+    } 
+    
+
+}
+
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+
+}
+/* Large devices (desktops, less than 1200px) */
+@media (width: 1024px) { 
+
+}
+
+@media (width:375px){
+    
+}

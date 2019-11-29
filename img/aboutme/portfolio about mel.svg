@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-portfolio_about_mel">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="portfolio_about_mel" data-name="portfolio about mel" clip-path="url(#clip-portfolio_about_mel)">
+    <path id="bg_text" d="M664,1186.355c373.962-28.4,819.929-317.57,797.224-615.319S1006.592-3.892,632.63,24.509,43.4,609.351,66.107,907.1,290.035,1214.756,664,1186.355Z" transform="matrix(0.996, 0.087, -0.087, 0.996, 1120.787, -278.703)" fill="#f2f2f2"/>
+  </g>
+</svg>
