@@ -62,13 +62,11 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background:#ffffff;
     position:fixed;
     z-index: 99;
   }
   
   #name{
-    color:rgb(0, 0, 0);
     font-family:'Poppins',sans-serif;
     font-weight:500;
     position:absolute;
@@ -91,15 +89,9 @@ font-family: 'Poppins', sans-serif;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-.logo-bg{
-    background-color:#ffffff;
-}
-
 .header{
     padding-bottom:4rem;
     padding-top:3rem;
-    background-color: #ffffff;
-    color:#000;
 }
 
   .content{
@@ -121,7 +113,6 @@ font-family: 'Poppins', sans-serif;
   .blue_bg{
     position:absolute;
     height:100%;
-    background:white;
   }
   
 
@@ -134,10 +125,6 @@ font-family: 'Poppins', sans-serif;
     width:100%;
   }
   
-  .text{
-    color: rgb(0, 0, 0);
-  }
-  
   .text h1{
         font-size: 48px;
       font-family: 'Poppins', sans-serif;
@@ -148,14 +135,12 @@ font-family: 'Poppins', sans-serif;
 
   .header_text2{
     font-size: 48px;
-    color: rgb(0, 0, 0);
     letter-spacing: normal;
     margin-bottom:20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 .data{
-    color:rgb(0, 0, 0);
     font-family:'Poppins',sans-serif;
     font-weight:500;
     letter-spacing:0rem;
@@ -163,12 +148,9 @@ font-family: 'Poppins', sans-serif;
     font-size:21px;
   }
 
-.data a{
-    color: rgb(0, 0, 0);
-}
+.data a{}
 
 .data a:hover{
-    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
