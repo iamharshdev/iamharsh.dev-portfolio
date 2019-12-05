@@ -9,6 +9,21 @@ body{
     cursor:none;}
 *{cursor:none;}
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #282828;
+    color: #f3f3f3;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f3f3f3;
+    color: #282828;
+  }
+}
+
+
 *,
 *:before,
 *:after {
