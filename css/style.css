@@ -259,8 +259,6 @@ padding-top:4rem;
 }
 
 .front_end_skills{
- color:black;
- background:#fff;
  width:300px;
  font-family: 'Poppins', sans-serif;
  -webkit-transition: all 0.4s ease 0s;
@@ -373,15 +371,12 @@ padding-top:4rem;
     padding-bottom:2rem;
     padding-top: 2rem;
     font-family: 'Poppins', sans-serif;
-    color:#000;
  }
 
  .features_area a{
-     color:#000;
  }
 
  .features_area a:hover{
-     color:#000;
      text-decoration:none;
  }
 
@@ -399,7 +394,6 @@ padding-top:4rem;
   {
     padding: 45px 25px;
     text-align: center;
-    background: #f9f9fd;
     cursor: pointer;
     margin-bottom: 30px;
     -webkit-transition: all 0.4s ease 0s;
@@ -430,12 +424,10 @@ padding-top:4rem;
     .feature_item:hover
      {
       box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
-      background: #fff; 
      } 
 
 .projects{
     padding-top: 2rem;
-    background: #fff;
     padding-bottom:2rem;
     margin-bottom: 1rem;
 }
@@ -457,7 +449,6 @@ padding-top:4rem;
 }
 
 .project_heading{
-    color:#000;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     padding-bottom:2rem;
@@ -466,8 +457,6 @@ padding-top:4rem;
 }
 
 .CONTACT_heading{
-    background: #000;
-    COLOR:WHITE;
     text-align:center;
     margin: 0 auto;
     max-width:40%;
