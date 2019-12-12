@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+background:black;font-family:'Poppins','sans-serif';
+}
+
+html{
+    scroll-behavior: smooth;
+    cursor:none;
+    background-color:black;
+    margin-left:15rem;margin-right:15rem;
+}
+
+.home{
+    background:rgb(0, 0, 0);
+}
+
+.font-poppins{font-family:'Poppins','sans-serif';}
+        
+nav a:hover{text-decoration:none;}
+
+.bg-black{
+    background: black;
+    color:white;
+    }
+    
+.logo{
+    margin-bottom:1rem;
+}  
+
+.explorebutton img{
+ width:30px;
+ margin-right:10px;
+}
+
+.explorebutton{text-align: center;}
+
+.explorebutton button[type="button"]{
+ transition:.4s all ease-in-out;
+}
+
+.explorebutton button[type="button"]:hover{
+ transition:.4s all ease-in-out;
+}
+
+.explore_text_button{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    padding:10px;
+    font-size:12px;
+    border-radius:10px;
+    color:#fff;
+    background:black;
+    border:2px solid;
+    overflow: hidden;
+    transition: .3s all ease-out;
+}
+
+a{color:white;}
+a:hover{color:white;text-decoration:none;}
+
+.more_dwn{margin-top:2rem;}
+
+.downloads{
+    margin-top:6rem;
+    margin-bottom:6rem;
+}
+
+.explorebutton1 img{
+ width:30px;
+ margin-right:10px;
+}
+
+.explorebutton1{text-align: center;}
+
+.explorebutton1 button[type="button"]:first-child{
+ transition:.4s all ease-in-out;margin-right:3rem;
+}
+
+.explorebutton1 button[type="button"]{
+ transition:.4s all ease-in-out;
+}
+
+.explorebutton1 button[type="button"]:hover{
+ transition:.4s all ease-in-out;
+}
+
+h1{color:white;font-family: 'Poppins', sans-serif;font-weight:600;margin-bottom:3rem;}
+
+.cursor-dot { 
+background-color:white;
+}
+.cursor-dot-outline { 
+  border:2px solid white;}
+  
+.project{color:white;}  
+
+td{color:#fff;}
+
+.dwnlogo{width:25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+.dwnlogo:hover{ -webkit-transform:scale(1.20);transition:.4s all ease-in-out;}
+
+.dwn_lo{text-align:centre;}
+
+.goal{margin-bottom:5rem;}
+
+video{width:50%;margin-top:2rem;margin-bottom:2rem;}
+
+@media (max-width: 575.98px) { 
+html{
+margin-left:3rem;margin-right:3rem;
+}
+
+video{width:80%;}
+}
+@media (max-width: 769px) {html{
+margin-left:3rem;margin-right:3rem;
+}
+video{width:80%;}}
+@media (max-width: 991.98px) {html{
+margin-left:3rem;margin-right:3rem;
+}
+video{width:80%;} }
