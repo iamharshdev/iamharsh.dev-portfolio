@@ -280,29 +280,47 @@ svg #logo{
   }
 
 .socialmedia{
-text-align: center;
-margin: 0 auto;
-padding-top:4rem;
+padding-top:6rem;
 }
-
-.socialmedia ul li{
+.socialmediaol{
+    border:2px solid var(--font-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: fit-content;
     display: inline-block;
-    padding-right:3rem;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
 }
 
-.socialmedia ul li a img{
-  transition: .2s all ease-in-out;
+.socialmediaol:hover{
+    border: none;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    background: var(--font-color);
+    color:var(--bg-color);
 }
 
-.socialmedia ul li a img:hover{
-    margin-top: -2rem;
-    transition: .2s all ease-in-out;
-  }
+.socialmediaol img{
+    margin-right:1rem;
+    float: left;
+}
+
+.socialmediaol h5{
+    font-family: 'Poppins','sans-serif';
+    font-size: 1rem;
+    margin-left:1rem;
+    display: block;
+    margin: 2px 0 0 0;
+}
 
 .downarrow{
     text-align: center;
     padding-top:2rem;
-   
 } 
 
  .downarrow img{
