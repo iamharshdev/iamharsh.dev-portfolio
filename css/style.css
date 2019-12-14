@@ -16,7 +16,7 @@ html{
 [data-theme="dark"] {
     --primary-color: #9A97F3;
     --secondary-color: #818cab;
-    --font-color: #e1e1ff;
+    --font-color: #fff;
     --bg-color: #161625;
     --heading-color: #818cab;
 }
@@ -45,46 +45,6 @@ body::after{-webkit-transition: all 0.5s ease-in-out 0s;
     -moz-transition: all 0.5s ease-in-out 0s;
     -o-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;}    
-
-/* @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #282828;
-    color: #f3f3f3;
-  }
-#preloader{
-background:#000;
-color:#f3f3f3;
-}
-
-a{color:#f3f3f3;}
-a:hover{color:#f3f3f3;}
-
-.logo img{
-fill:#f3f3f3;
-}
-
-
-} */
-
-/* @media (prefers-color-scheme: light) {
-  body {
-    background-color: #f3f3f3;
-    color: #282828;
-  }
-
-.logo img{
-fill:#282828;
-}
-
-#preloader{
-background:#000;
-color:#fff;
-}
-
-a{color:#282828;}
-a:hover{color:#282828;}
-
-} */
 
 *,
 *:before,
@@ -295,13 +255,28 @@ padding-top:6rem;
 }
 
 .socialmediaol:hover{
-    border: none;
+    border:2px solid var(--primary-color);
+    color: var(--font-color);
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-    background: var(--font-color);
-    color:var(--bg-color);
+}
+
+.socialmediaol a{
+    color: var(--font-color);
+}
+
+.socialmediaol a:hover{
+    color: var(--primary-color);
+}
+
+.projects a{
+    color: var(--font-color);
+}
+
+.projects a:hover{
+    color: var(--primary-color);
 }
 
 .socialmediaol img{
