@@ -68,6 +68,14 @@
     padding-bottom:2rem;
 }
 
+.illustration_header img:hover{
+    margin-bottom:2rem;
+}
+
+.theme-switch-wrapper{
+    text-align: center;
+}
+
 .illustration_header{
 text-align:centre; 
 margin: 0 auto; 
