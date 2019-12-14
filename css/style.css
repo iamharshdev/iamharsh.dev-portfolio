@@ -267,7 +267,7 @@ transform: rotate(360deg);
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 
 .illustration_header{
