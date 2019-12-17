@@ -1,16 +1,9 @@
 .container {
-  width: 70%;
-  margin: auto;
   text-align: center;
-}
-
-.dice {
-  text-align: center;
-  display: inline-block;
 }
 
 body {
-  background-color: #282828;
+  background-color: #161625;
 }
 
 h3 {
@@ -18,26 +11,29 @@ h3 {
   font-family: 'Lobster', cursive;
   font-size: 2rem;
   color: #f3f3f3;
+  margin-bottom: 2rem;
+  margin-top:2rem;
 }
 
 h1 {
   text-align: center;
   font-family: 'Lobster', cursive;
-  font-size: 2rem;
+  font-size: 2rem;  margin-bottom: 2rem;
   color: #f3f3f3;
 }
 
 h4{
   font-size: 1rem;
-  color:blue;
+  color:blue;  margin-bottom: 2rem;
   font-family: monospace;
+     margin-top: 2rem;
 }
 
 h2{
   color:#ffff ;
   font-size: 1rem;
   font-family: monospace;
-  text-decoration:line-through; 
+  text-decoration:line-through;
 }
 
 p {
@@ -47,6 +43,6 @@ p {
 }
 
 img {
-  width: 60%;
+  max-width: 50%;
   transition: 0.4s all ease-in;
 }
