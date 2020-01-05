@@ -81,7 +81,7 @@ body::after{-webkit-transition: all 0.5s ease-in-out 0s;
 
 #preloader{
     background: var(--bg-color);
-    margin:0 0 0 0;
+    margin:0px 0px 0px 0px;
     position:fixed;
     z-index: 99;
   }
