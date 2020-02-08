@@ -33,6 +33,17 @@
     padding: 10px;
     margin: 10px;
     border-radius: 50%;
+    transition: 0.3s all ease-in-out;
+}
+
+.btn-icon:hover{
+    transition: 0.3s all ease-in-out;
+    transform: scale(0.8);
+}
+
+.btn-icon:focus{
+    transition: 0.3s ease-in-out;
+    transform: scale(0.8);
 }
 
 .icon-row {
@@ -53,12 +64,25 @@
 
 .credits span {
     font-family: ManRope;
+    color:black;
 }
+
+ a:hover{
+    text-decoration: none;
+ }
+
+ a:focus{
+    text-decoration: none;
+ }
 
     body{
         background:#e3eef1;
         text-align:centre;
         margin-top: 5rem;
+    }
+
+    .fab{
+        color:black;
     }
 
     .img-profile img{
@@ -68,8 +92,19 @@
         height: 180px;
         border-radius:100px;
         text-align: center;
+    transition: 0.3s ease-in-out;
         box-shadow: 0px 8px 20px #ddd;
 
+    }
+
+    .img-profile img:hover{
+        transform: scale(0.9);
+        transition: 0.3s ease-in-out;
+    }
+
+    .img-profile img:focus{
+        transform: scale(0.9);
+        transition: 0.3s ease-in-out;
     }
 
     .header{
@@ -118,7 +153,18 @@
     border-radius:0.5rem;
     margin-bottom:2rem;
     list-style-type:none;
+    transition: 0.3s ease-in-out;
     background:white;
+}
+
+.main-link:focus{
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out;
+}
+
+.main-link:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(0.9);
 }
 
 .link_list{
