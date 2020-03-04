@@ -1,0 +1,22 @@
+
+title: Electron - Development Blog
+email: nitingoswami473@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+github_username:  theuitown
+remote_theme: b2a3e8/jekyll-theme-console
+# Build settings
+theme: jekyll-theme-console
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - index.md
+  - about.md
+
+style: dark
+
+footer: 'follow us on <a href="https://instagram.com/iamharsh.dev">instagram</a>'
