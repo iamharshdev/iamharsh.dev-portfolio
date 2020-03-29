@@ -1,24 +1,15 @@
 
 
 @font-face {
-    font-family: ManRope;
-    font-weight: 500;
-    src: url("https://lootalert.sgp1.digitaloceanspaces.com/Gbox/taphere/fonts/manrope-medium.otf") format("opentype");
+    font-family: GraphikReg;
+    src: url("fonts/Graphik-Regular.woff2") format("opentype");
 }
 
 
 @font-face {
-    font-family: ManRope;
-    font-weight: 700;
-    src: url("https://lootalert.sgp1.digitaloceanspaces.com/Gbox/taphere/fonts/manrope-semibold.otf") format("opentype");
+    font-family: GraphikSemi;
+    src: url("fonts/Graphik-Semibold.woff2") format("opentype");
 }
-
-@font-face {
-    font-family: ManRope;
-    font-weight: 400;
-    src: url("https://lootalert.sgp1.digitaloceanspaces.com/Gbox/taphere/fonts/manrope-regular.otf") format("opentype");
-}
-
 
 .btn-icon i {
     text-align: center;
@@ -63,7 +54,7 @@
 }
 
 .credits span {
-    font-family: ManRope;
+   font-family: GraphikReg;
     color:black;
 }
 
@@ -113,16 +104,14 @@
     .header h1{
         color:#403a36;
         font-size:1.5rem;
-        font-family: ManRope;
-        font-weight: 500;
+        font-family: GraphikSemi;
         margin-bottom:1.5rem;
     }
 
     .header h2{
         font-size: 14px;
-        font-family: ManRope;
+        font-family: GraphikReg;
         text-align:centre;
-        font-weight: 500;
         margin:0 auto;
     }
 
@@ -134,8 +123,7 @@
     color:
     #2c3e5e;
     padding-bottom: 2px;
-    font-family: ManRope;
-    font-weight: 600;
+    font-family: GraphikSemi;
     font-size: 16px;
 }
 
@@ -143,7 +131,7 @@
 	color: #909aab;
 	font-size: 14px;
 	padding-top: 5px;
-	font-family: ManRope;
+	font-family: GraphikReg;
 }
 
 .main-link{

@@ -13,14 +13,14 @@ text.set({
 text.start();
 text.reveal(4000);
 
-const harsh = baffle(".explore_text_button");
-harsh.set({
-      characters: '░▒░ ░██░> ████▓ >█> ░/█>█ ██░░ █<▒ ▓██░ ░/░▒',
-        speed: 120
-});
+// const harsh = baffle(".explore_text_button");
+// harsh.set({
+//       characters: '░▒░ ░██░> ████▓ >█> ░/█>█ ██░░ █<▒ ▓██░ ░/░▒',
+//         speed: 120
+// });
 
-harsh.start();
-harsh.reveal(4000);
+// harsh.start();
+// harsh.reveal(4000);
 
 //heading text animation
 

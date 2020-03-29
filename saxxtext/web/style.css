@@ -1,0 +1,169 @@
+body{
+  font-family: "ipm","Menlo","Courier New",monospace;
+}
+
+p{
+    margin-top:2rem;
+}
+
+ul{
+padding-left:0rem;
+  margin-top:2rem;
+}
+
+ul li{
+  display:inline-block;
+  margin-right:2rem;
+}
+
+.code-part{
+  background:#252525;
+  color:white;
+  padding:2rem;
+  margin-top:2rem;
+  width:100%;
+}
+
+.code-part com{
+  color:grey;
+}
+
+cd{
+  color:white;
+}
+
+cd ye{
+  color:yellow;
+}
+
+cd gr{
+  color:lightgreen;
+}
+
+.installtion-section{
+  margin-top:3rem;
+}
+
+.highlight span:nth-child(5){
+  color:white;
+}
+
+.highlight span:nth-child(1){
+  color:lightblue;
+}
+
+.highlight span:nth-child(2){
+  color:white;
+}
+
+.highlight span:nth-child(3){
+  color:yellow;
+}
+
+.highlight span:nth-child(4){
+  color:lightgreen;
+}
+
+.highlight span:nth-child(6){
+  color:lightblue;
+}
+
+code{
+  padding:.15rem;
+background-color: #e7d9ff;
+  color:#310680;
+  margin:1rem;
+  margin-left:0rem;
+}
+
+#vanilla span:nth-child(7){
+  color:lightblue;
+}
+
+#vanilla span:nth-child(1){
+  color:lightblue;
+}
+
+#vanilla span:nth-child(2){
+  color:white;
+}
+
+#vanilla span:nth-child(3){
+  color:yellow;
+}
+
+#vanilla span:nth-child(4){
+  color:lightgreen;
+}
+
+#vanilla  span:nth-child(6){
+  color:lightblue;
+}
+
+/* #demo1{
+  padding:1rem;
+  background-color: #e7d9ff;
+  font-size:2rem;
+  color:#310680;
+} */
+.saxxdemo{
+ display: flex;
+ justify-content: left;
+ align-items: left;
+}
+
+.saxxdemo saxx{
+  font-size:2rem;
+  font-weight:bold;
+  color: black;
+  letter-spacing:.5rem;
+  transition:.2s all ease-in-out;
+  animation-duration:1.1s;
+}
+.saxxdemo saxx1{
+  font-size:2rem;
+  font-weight:bold;
+  color: black;
+  letter-spacing:.5rem;
+  transition:.2s all ease-in-out;
+  animation-duration:1.1s;
+}
+.saxxdemo saxx2{
+  font-size:2rem;
+  font-weight:bold;
+  color: black;
+  letter-spacing:.5rem;
+  transition:.2s all ease-in-out;
+  animation-duration:1.1s;
+}
+
+saxxspan{
+  color: lightblue;
+}
+
+.usage{
+  margin-bottom: 2rem;
+}
+.main-btn{
+  background: white;
+  border: 2px solid black;  transition:.3s all ease-in-out;
+  color: black;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;  transition:.3s all ease-in-out;
+}
+.main-btn:hover{
+  background: black;
+  color: white;
+}
+#vanillacode{
+  display: none;
+}
+
+
+@media (max-width: 769px) {
+.topsection li{
+  margin-bottom: 1rem;
+}
+}

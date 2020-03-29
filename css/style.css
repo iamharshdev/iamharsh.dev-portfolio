@@ -7,7 +7,7 @@ html{
 
 :root {
     --primary-color: #302AE6;
-    --font-color: #424242;
+    --font-color: #181818;
     --bg-color: #fff;
     --heading-color: #292922;
     --shadow:#ddd;
@@ -183,28 +183,32 @@ font-family: 'Poppins', sans-serif;
 }
 
 .explorebutton button[type="button"]{
-    background-color: #f06449;
-    color: rgb(255, 255, 255);
-    background: linear-gradient(270deg,#f06449,#ef3636);
+    background-color: var(--font-color);
+    color: var(--bg-color);
     border:none;
-    padding: .5rem;
-    transition: 0.3s ease-in-out;
+    padding: 0.7rem;
+    padding-left:1rem;
+    text-align: center;
+    padding-right: 1rem;
+    transition:all 0.3s;
+}
+
+.explorebutton button[type="button"] i{
+    padding-left:.5rem;
 }
 
 .explorebutton button[type="button"]:hover{
-  transform: scale(0.9);
-  transition: 0.3s ease-in-out;
-  background-color: #f06449;
-  color: rgb(255, 255, 255);
-  background: linear-gradient(270deg,#f06449,#ef3636);
+    transition:all 0.3s;
+  color: var(--font-color);
+  border:2px solid var(--font-color);
+  background-color: var(--bg-color);
 }
 
 .explorebutton button[type="button"]:focus{
-  transform: scale(0.9);
-  transition: 0.3s ease-in-out;
-  background-color: #f06449;
-  color: rgb(255, 255, 255);
-  background: linear-gradient(270deg,#f06449,#ef3636);
+    transition:all 0.3s;
+  color: var(--font-color);
+  border:2px solid var(--font-color);
+  background-color: var(--bg-color);
 }
 
 .explore_text_button{
@@ -213,7 +217,8 @@ font-family: 'Poppins', sans-serif;
     max-width : 120%;
     font-size:12px;
     border:none;
-    transition: .3s all ease-out;
+    font-weight:600;
+    transition: .3s all ;
     margin:0 auto;
     text-align: center;
 }
@@ -532,6 +537,7 @@ button[type="button"]{
     color:var(--font-color);
     max-width:100%;
     font-size: 1rem;
+    font-weight:600;
     margin:0 auto;
     text-align: center;
     background: transparent;
@@ -684,3 +690,5 @@ a:hover{text-decoration: none;color: var(--font-color);}
       margin-top: 4rem;
       text-align: center;
   }
+
+  
