@@ -5,6 +5,7 @@
     <Aboutme />
     <Work />
     <SmallProjects />
+    <DesignProjects />
     <About />
   </div>
 </template>
@@ -16,6 +17,7 @@ import Work from '../components/work'
 import SmallProjects from '../components/smallProjects.vue'
 import About from '../components/about.vue'
 import Aboutme from '../components/aboutme.vue'
+import DesignProjects from '../components/designprojects.vue'
 export default {
   components: {
     Navbar,
@@ -24,6 +26,7 @@ export default {
     SmallProjects,
     About,
     Aboutme,
+    DesignProjects,
   },
   mounted() {
     if (process.browser) {
@@ -32,7 +35,7 @@ export default {
         'smooth-scroll-wrapper'
       )[0]
       const height = scrollWrap.getBoundingClientRect().height - 1
-      const speed = 0.085
+      const speed = 0.055
       let offset = 0
       body.style.height = Math.floor(height) + 'px'
       // eslint-disable-next-line no-inner-declarations

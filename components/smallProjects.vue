@@ -3,8 +3,7 @@
     <div class="wid80 center">
       <h1 class="mb-4">$CodeLab_</h1>
       <p class="mb-2">
-        Checkout my other small projects like bash scripts, js libraries, python
-        scripts and more
+        Hey! I also did some small projects for fun :)
       </p>
       <ul>
         <span v-for="project in projects" :key="project">
@@ -81,8 +80,8 @@ export default {
     // eslint-disable-next-line object-shorthand
     getposition: function (e) {
       if (process.browser) {
-        this.x = e.pageX + 15 + 'px'
-        this.y = e.pageY + 15 + 'px'
+        this.x = e.clientX + 25 + 'px'
+        this.y = e.clientY + 100 + 'px'
         const elem = document.querySelectorAll('.container')
         const that = this
         elem.forEach(addPosition)
