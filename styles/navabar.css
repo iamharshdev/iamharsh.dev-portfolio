@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-icon {
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  z-index:999999;
+  left: 50px;
+  top: 30px;
+  cursor: pointer;
+}
+
+.menu-icon__line {
+  height: 2px;
+  width: 30px;
+  display: block;
+  background-color: white;
+  margin-bottom: 4px;
+  transition: transform 0.4s ease, background-color 0.5s ease;
+}
+
+.menu-icon__line-left {
+  width: 15px;
+}
+
+.menu-icon__line-right {
+  width: 15px;
+  float: right;
+}
+
+.nav-active .menu-icon__line {
+  background-color: #fff;
+  transform: translateX(0px) rotate(-45deg);
+}
+
+.nav-active .menu-icon__line-left {
+  transform: translateX(1px) rotate(45deg);
+}
+
+.nav-active .menu-icon__line-right {
+  transform: translateX(-2px) rotate(45deg);
+}
+
+.menu_content {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  color: white;
+  display: none;
+  position: fixed;
+  z-index:111111;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_content ul li {
+  display: inline-block;
+  padding: 2rem;
+  font-size: calc(2vw + 10px);
+}
+
+.hidden {
+  display: flex !important;
+}
+
+.rev-block span {
+  opacity: 0;
+  animation: appear-text 0.5s linear forwards;
+  animation-delay: 2s;
+}
+
+.rev-block:after {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  background: #fff;
+  animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: .8s;
+}
+
+@keyframes rev-block {
+  0% {
+    top: 0;
+    height: 0%;
+  }
+
+  50% {
+    top: 0;
+    height: 100%;
+  }
+
+  100% {
+    top: 100%;
+    height: 0%;
+  }
+
+}
+
+@keyframes appear-text {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+.rev-block .cool-link::after {
+  content: '';
+  display: block;
+  margin-top: 5px;
+  height: 2px;
+  width: 25%;
+  transition: width .5s ease;
+  background: #fff;
+}
+
+.rev-block .cool-link:hover::after {
+  width: 100%;
+  transition: width .5s ease;
+}
+
+.cool-link:hover,
+cool-link:focus {
+  cursor: pointer;
+}
