@@ -1,8 +1,15 @@
 <template>
   <div id="section" class="header pt-4 row wid80 pb-4 center">
     <section class="col">
-      <h1 class="mt-4" style="color: white;">Hello, I'm Harsh.</h1>
-      <h1 style="color: white;">a front-end developer</h1>
+      <h1 class="mt-4 row" style="color: white;">
+        <s>H</s><s>e</s><s>l</s><s>l</s><s>o</s><s>,&nbsp;</s><s>I</s><s>'</s
+        ><s>m&nbsp;</s><s>H</s><s>a</s><s>r</s><s>s</s><s>h.</s>
+      </h1>
+      <h1 class="row" style="color: white;">
+        <s>a&nbsp;</s><s>f</s><s>r</s><s>o</s><s>n</s><s>t</s><s>-</s><s>e</s
+        ><s>n</s><s>d&nbsp;</s><s>d</s><s>e</s><s>v</s><s>e</s><s>l</s><s>o</s
+        ><s>p</s><s>e</s><s>r</s>
+      </h1>
       <div class="wrap-info mt-3">
         <svg
           class="arrow"
@@ -33,16 +40,25 @@
             </g>
           </g>
         </svg>
-        <h2 class="mt-3">
+        <h3 class="mt-3">
           <span class="s-03"
             ><span>Currently works as freelance web developer & </span></span
           ><span class="s-03"><span>UX/UI Designer</span></span>
-        </h2>
+        </h3>
       </div>
     </section>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    if (process.browser) {
+      // eslint-disable-next-line no-undef
+      setAnimationSaxx('s', 'saxx jello')
+      // eslint-disable-next-line no-undef
+      setSaxxMouseEffect('s', 'saxx jello', 'white', 'white')
+    }
+  },
+}
 </script>

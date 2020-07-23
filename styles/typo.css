@@ -13,8 +13,8 @@ h1,
   margin-bottom: 0.5rem;
   line-height: 1.2;
   font-family: "Peroaf", sans-serif;
-  font-size: 70px;
-  color:#2c2c2e;
+  font-size: 65px;
+  color: #2c2c2e;
 }
 
 h2,
@@ -62,8 +62,8 @@ h6,
   font-size: 1rem;
 }
 
-p{
-    line-height:1.6rem;
+p {
+  line-height: 1.6rem;
 }
 
 p,
@@ -154,4 +154,32 @@ small {
   .h6 {
     font-size: 0.8rem;
   }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font-family: 'Pero', sans-serif;
+}
+
+.socialmedia_links i {
+  font-size: 4rem;
+}
+
+h1 s{
+  text-decoration: none;
 }

@@ -30,12 +30,22 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700',
       },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css',
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://iamharsh.dev/saxxtext/lib/saxxtext.min.css',
+      },
     ],
     script: [
       {
         src:
           'https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js',
       },
+      { src: 'https://iamharsh.dev/saxxtext/lib/saxxtext.min.js' },
     ],
   },
   /*
