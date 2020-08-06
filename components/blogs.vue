@@ -2,13 +2,13 @@
   <div class="wid80 center">
     <div class="wid80 centre pb-2">
       <h1 class="mb-2">Blogs <br />by me</h1>
-      <p>
+      <p class="wow slideInUp">
         Hey! I have a blog named Electron where i mainly talk about design &
         development tips. So, do make sure you check it out.
       </p>
     </div>
     <div class="row wid100 space-bw mt-2 mb-4">
-      <div v-for="blog in blogs" :key="blog" class="col-md-6">
+      <div v-for="blog in blogs" :key="blog" class="col-md-6 wow slideInUp">
         <div class="wid90 center">
           <a :href="blog.link" target="blank">
             <div class="blogs_card">
@@ -73,6 +73,12 @@ export default {
             'https://electron.iamharsh.dev/crash_course/git/2020/03/06/git-cli-crash-course.html',
         },
       ],
+    }
+  },
+  mounted() {
+    if (process.browser) {
+      // eslint-disable-next-line no-undef
+      new WOW().init()
     }
   },
 }

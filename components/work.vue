@@ -4,81 +4,25 @@
       <h1>favored_<br />projects</h1>
     </div>
     <div class="row space-bw wid100">
-      <div class="col-md-3 align-top">
-        <div class="card card1" data-tilt>
-          <div class="card-inner">
-            <h2>Rotary website</h2>
-            <button class="cool-link">Read More</button>
-            <h2>01</h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 align-end">
-        <div class="card card2" data-tilt>
-          <div class="card-inner">
-            <h2>Neutron Code Editor</h2>
-            <button class="cool-link">Read More</button>
-            <h2>01</h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 align-end">
-        <div class="card card3" data-tilt>
-          <div class="card-inner">
-            <h2>COVID19 NEWS & STATS API</h2>
-            <button class="cool-link">Read More</button>
-            <h2>01</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row mt-4 space-bw wid100">
-      <div class="col-md-5 align-top">
-        <div class="card card4" data-tilt>
-          <div class="card-inner">
-            <h2>Walldrops</h2>
-            <button class="cool-link">Read More</button>
-            <h2>01</h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5 align-centre">
-        <div class="card card5" data-tilt>
-          <div class="card-inner">
-            <h2>Biotree</h2>
-            <button class="cool-link">Read More</button>
-            <h2>01</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row space-bw mt-4">
-      <div class="col-md-3 align-top">
-        <div class="card card6" data-tilt>
-          <div class="card-inner">
-            <h2>Gocorona website</h2>
-            <button class="cool-link">Read More</button>
-            <h2>01</h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 align-end">
-        <div class="card card7" data-tilt>
-          <div class="card-inner">
-            <h2>Phiscam</h2>
-            <button class="cool-link">Read More</button>
-            <h2>01</h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 align-end">
-        <div class="card card8" data-tilt>
-          <div class="card-inner">
-            <h2>ROM Port tool</h2>
-            <button class="cool-link">Read More</button>
-            <h2>01</h2>
+      <div
+        v-for="(project, index) in Projects"
+        :key="project"
+        class="col-md-6 mb-3 wow slideInUp"
+      >
+        <div
+          class="card wid90 center"
+          data-tilt
+          :style="{ backgroundImage: `url(${getImageUrl(project.img)})` }"
+        >
+          <div class="card-inner wid60">
+            <h2>{{ project.name }}</h2>
+            <button class="learn-more mb-1" @click="viewProject(project.title)">
+              <span class="circle">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">Read More</span>
+            </button>
+            <h2>{{ index }}</h2>
           </div>
         </div>
       </div>
@@ -88,8 +32,36 @@
 
 <script>
 export default {
+  data() {
+    return {
+      Projects: [
+        { name: 'Biotree', img: 'biotree.webp' },
+        { name: 'Walldrops', img: 'walldrops.webp' },
+        {
+          name: 'Falsomlake Carwash Website',
+          img: 'falsomcarwash.webp',
+        },
+        { name: 'Contra CSS Kit', img: 'contracss.webp' },
+        {
+          name: 'Gocorona : COVID Stats Website',
+          img: 'gocorona.webp',
+        },
+        { name: 'COVID News API', img: 'coronews.webp' },
+        {
+          name: 'Leit-anim : Animation Library',
+          img: 'leit-anim.webp',
+        },
+        {
+          name: 'Neutron Code Editor',
+          img: 'neutron_Code_editor.webp',
+        },
+      ],
+    }
+  },
   mounted() {
     if (process.browser) {
+      // eslint-disable-next-line no-undef
+      new WOW().init()
       const element = document.querySelectorAll('.card')
       // eslint-disable-next-line no-undef
       element.forEach(inittilt)
@@ -99,6 +71,11 @@ export default {
         VanillaTilt.init(item)
       }
     }
+  },
+  methods: {
+    getImageUrl(img) {
+      return require('../assets/' + img)
+    },
   },
 }
 </script>

@@ -2,14 +2,20 @@
   <div id="section" class="wid80 center pb-4">
     <div class="wid80 centre mb-2">
       <h1>My adroitness</h1>
-      <p>This is what my Design & Development adroitness looks like:</p>
+      <p class="wow slideInUp">
+        This is what my Design & Development adroitness looks like:
+      </p>
     </div>
     <div id="about" class="mt-3">
       <div class="row">
         <div class="col-md-6">
           <div class="wid100 center">
             <ul>
-              <li v-for="skill in skills.design" :key="skill">
+              <li
+                v-for="skill in skills.design"
+                :key="skill"
+                class="wow slideInUp"
+              >
                 <svg
                   fill="none"
                   stroke-linecap="round"
@@ -28,7 +34,11 @@
         <div class="col-md-6">
           <div class="wid100 center">
             <ul>
-              <li v-for="skill in skills.code" :key="skill">
+              <li
+                v-for="skill in skills.code"
+                :key="skill"
+                class="wow slideInUp"
+              >
                 <svg
                   fill="none"
                   stroke-linecap="round"
@@ -81,6 +91,12 @@ export default {
           'Mobile app design',
         ],
       },
+    }
+  },
+  mounted() {
+    if (process.browser) {
+      // eslint-disable-next-line no-undef
+      new WOW().init()
     }
   },
 }

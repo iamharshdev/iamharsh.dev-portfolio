@@ -39,6 +39,11 @@ export default {
         rel: 'stylesheet',
         href: 'https://iamharsh.dev/saxxtext/lib/saxxtext.min.css',
       },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css',
+      },
     ],
     script: [
       {
@@ -46,6 +51,13 @@ export default {
           'https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js',
       },
       { src: 'https://iamharsh.dev/saxxtext/lib/saxxtext.min.js' },
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js',
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js',
+      },
     ],
   },
   /*

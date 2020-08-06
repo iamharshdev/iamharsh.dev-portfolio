@@ -17,15 +17,17 @@
     </div>
     <div id="luxy" class="smooth-scroll-wrapper">
       <Navbar />
-      <Header />
-      <Aboutme />
-      <Work />
-      <SmallProjects />
-      <DesignProjects />
-      <Blogs />
-      <About />
-      <SocialMedia />
-      <Contact />
+      <div id="distort">
+        <Header />
+        <Aboutme />
+        <Work />
+        <SmallProjects />
+        <DesignProjects />
+        <Blogs />
+        <About />
+        <SocialMedia />
+        <Contact />
+      </div>
       <Footer />
     </div>
   </div>
@@ -59,10 +61,14 @@ export default {
   },
   mounted() {
     if (process.browser) {
+      // eslint-disable-next-line no-undef
+      new WOW().init()
+
       const overlay = document.getElementById('preloader')
       window.addEventListener('load', function () {
         overlay.style.display = 'none'
       })
+
       const body = document.body
       const main = document.getElementById('luxy')
       let sx = 0 // For scroll positions
@@ -95,20 +101,17 @@ export default {
       function li(a, b, n) {
         return (1 - n) * a + n * b
       }
-
-      // const scrollWrap = document.getElementsByClassName(
-      //   'smooth-scroll-wrapper'
-      // )[0]
-      // const speed = 0.055
-      // let offset = 0
-      // // eslint-disable-next-line no-inner-declarations
-      // function smoothScroll() {
-      //   offset += (window.pageYOffset - offset) * speed
-      //   const scroll = 'translateY(-' + offset + 'px) translateZ(0)'
-      //   scrollWrap.style.transform = scroll
-      //   requestAnimationFrame(smoothScroll)
-      // }
-      // smoothScroll()
+      const content = document.querySelector('#distort')
+      let currentPos = window.pageYOffset
+      const callDistort = function () {
+        const newPos = window.pageYOffset
+        const diff = newPos - currentPos
+        const speed = diff * 0.1
+        content.style.transform = 'skewY(' + speed + 'deg)'
+        currentPos = newPos
+        requestAnimationFrame(callDistort)
+      }
+      callDistort()
     }
   },
 }

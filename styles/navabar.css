@@ -50,16 +50,29 @@
   background: black;
   color: white;
   display: none;
+  overflow-y: hidden;
   position: fixed;
   z-index:111111;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .menu_content ul li {
   display: inline-block;
   padding: 2rem;
   font-size: calc(2vw + 10px);
+}
+
+@media (max-width:769px){
+  .menu_content ul li {
+    padding: .5rem;
+    font-size: calc(2vw+1px);
+  }
+  .menu_content ul {
+    width:80%;
+    margin: 0 auto;
+  }
 }
 
 .hidden {

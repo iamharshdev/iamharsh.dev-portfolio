@@ -11,7 +11,11 @@
             {{ project.title }}
           </li>
           <div id="container" class="container">
-            <img id="smallimg" :src="project.img" />
+            <img
+              id="smallimg"
+              :src="getImageUrl(project.img)"
+              :alt="project.img"
+            />
           </div>
         </span>
       </ul>
@@ -28,55 +32,44 @@ export default {
       showimg: '',
       projects: [
         {
-          title: 'Saxxtext.js - Text animation library',
-          img:
-            'https://prathameshkoshti.com/images/project_images/movie-database.png',
+          title: 'PhisCam - Take WebcamShots of victim using a link',
+          img: 'phiscam.webp',
         },
         {
-          title: 'PhisCam - Take WebcamShots of victim using a link',
-          img:
-            'https://prathameshkoshti.com/images/project_images/movie-database.png',
+          title: 'Electron Cursor.js',
+          img: 'electron_cursor.webp',
         },
-        { title: 'Electron Cursor.js', img: '' },
         {
           title: 'GitHub Bot - Automate your github',
-          img:
-            'https://prathameshkoshti.com/images/project_images/movie-database.png',
+          img: 'gitbot.webp',
         },
         {
           title: 'FUCKUIP.py - Details of any ip address',
-          img:
-            'https://prathameshkoshti.com/images/project_images/movie-database.png',
+          img: 'fuckuip.webp',
         },
         {
-          title: 'Joe Virtual Assistant.py',
-          img:
-            'https://prathameshkoshti.com/images/project_images/movie-database.png',
-        },
-        {
-          title: 'CompressImage.py/sh',
-          img:
-            'https://prathameshkoshti.com/images/project_images/movie-database.png',
+          title: 'imageForWeb.py',
+          img: 'compressimg.webp',
         },
         {
           title: 'InstagramBot.py - Get more instagram reach',
-          img:
-            'https://prathameshkoshti.com/images/project_images/movie-database.png',
+          img: 'instabot.webp',
         },
         {
           title: 'HotelManagement.js - Automate your hotel things using python',
-          img:
-            'https://prathameshkoshti.com/images/project_images/movie-database.png',
+          img: 'hotel.webp',
         },
         {
           title: 'ProtonYTD - YouTube video downloader [Node.js]',
-          img:
-            'https://prathameshkoshti.com/images/project_images/movie-database.png',
+          img: 'protonytd.webp',
         },
       ],
     }
   },
   methods: {
+    getImageUrl(img) {
+      return require('../assets/' + img)
+    },
     // eslint-disable-next-line object-shorthand
     getposition: function (e) {
       if (process.browser) {

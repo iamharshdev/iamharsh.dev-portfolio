@@ -24,6 +24,7 @@
   "dependencies": {
     "@nuxt/content": "^1.3.2",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "gsap": "^3.4.2",
     "luxy.js": "^0.1.0",
     "nuxt": "^2.13.3"
   },

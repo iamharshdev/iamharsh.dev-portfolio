@@ -1,8 +1,8 @@
 <template>
   <div class="wid80 center">
     <div class="wid80 centre">
-      <h1>Instagram</h1>
-      <p>
+      <h1 class="wow slideInUp">Instagram</h1>
+      <p class="wow slideInUp">
         I am sharing my journey as a designer/developer on my Instagram handle.
         So, you can follow me up on instagram for some useful content and if you
         have any queries related to coding & design you can hit me up with a DM.
@@ -12,7 +12,7 @@
       <a
         v-for="post in posts"
         :key="post"
-        class="p-1 col-md-4"
+        class="p-1 col-md-4 wow slideInUp"
         :href="post.link"
       >
         <img :src="post.img" />
@@ -20,14 +20,16 @@
     </div>
     <div class="center-text mt-4 mb-4">
       <a href="https://instgram.com/iamharsh.dev" target="blank"
-        ><button class="main-btn instacolor center-text row center">
+        ><button
+          class="main-btn instacolor center-text row center wow slideInUp"
+        >
           <div class="pr-1">View All Posts on Instagram</div>
           <i class="im im-instagram"></i></button
       ></a>
     </div>
     <div class="wid80 centre">
-      <h1>YouTube</h1>
-      <p>
+      <h1 class="wow slideInUp">YouTube</h1>
+      <p class="wow slideInUp">
         I am sharing my journey as a designer/developer on my Instagram handle.
         So, you can follow me up on instagram for some useful content and if you
         have any queries related to coding & design you can hit me up with a DM.
@@ -37,7 +39,7 @@
       <a
         v-for="video in youtube"
         :key="video"
-        class="p-1 col-md-6"
+        class="p-1 col-md-6 wow slideInUp"
         :href="video.link"
       >
         <img :src="video.img" />
@@ -45,14 +47,14 @@
     </div>
     <div class="center-text mt-4 mb-4">
       <a href="https://instgram.com/iamharsh.dev" target="blank"
-        ><button class="main-btn red center-text row center">
+        ><button class="main-btn red center-text row center wow slideInUp">
           <div class="pr-1">View All Videos on YouTube</div>
           <i class="im im-youtube"></i></button
       ></a>
     </div>
     <div class="wid80 centre">
       <h1>Stay, Connect & Learn with Me</h1>
-      <p>
+      <p class="wow slideInUp">
         Hey! If you wanna connect & learn with me so here are some links to my
         social media handles for you.
       </p>
@@ -142,6 +144,12 @@ export default {
           img: 'http://i3.ytimg.com/vi/2uaeNHCHC40/maxresdefault.jpg',
         },
       ],
+    }
+  },
+  mounted() {
+    if (process.browser) {
+      // eslint-disable-next-line no-undef
+      new WOW().init()
     }
   },
 }
