@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Neutron</title>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <link rel="stylesheet" href="https://codepen.io/harsh-vardhan/pen/yWzQBq.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+        <div class="home">
+            <div class="d-flex flex-column flex-md-row align-items-center p-4 px-md-4 bg-black">
+                        <img class="my-0 mr-md-auto font-weight-normal" width="40" height="40" alt="" src="https://raw.githubusercontent.com/theuitown/electron-code-editor/master/assets/general3.png">
+                        <nav class="my-2 my-md-0 mr-md-3 font-poppins">
+                          <a class="p-2 text-light" href="https://www.github.com/theuitown">GitHub</a>
+                          <a class="p-2 text-light" href="#downloads">Downloads</a>
+                          <a class="p-2 text-light" href="#screenshots">Donate</a>
+                          <a class="p-2 text-light" href="https://www.iamharsh.design">Developer</a>
+                        </nav>
+                      </div>
+                      
+            <div class="logo" align="middle">
+                <img height="80" alt="" src="https://raw.githubusercontent.com/theuitown/electron-code-editor/master/assets/general3.png">
+            </div>
+          
+          <a href="https://www.producthunt.com/posts/neutron-live-code-editor?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-neutron-live-code-editor" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=172960&theme=dark" alt="Neutron-Live Code Editor - Offline code editor just like codepen.io | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+            
+            <div class="demo" align="middle">
+            <video id="vid" src="demo.mp4" autoplay="autoplay"></video>
+            </div>
+            
+            <div class="explorebutton">
+                <a href="https://github.com/theuitown/neutron-code-editor/releases/download/1.0.0/Neutron_1.0.0_amd64.deb"><button type="button" class="explore_text_button btn mt-4"><img src="Vector.svg">Download Neutron for Linux(.deb)</button></a>
+            </div>
+            <div class=more_dwn align="middle">
+            <p><a href="#downloads">Other Platforms</a></p>
+            </div>
+            
+        </div>
+        
+        <div class="downloads" id="downloads">
+            <h1>Installation</h1>
+            <table class="table table-bordered table-hover">
+  <tbody>
+    <tr>
+      <td>MacOS(.app)</td>
+      <td class="dwn_lo" id="mac"><a href="https://github.com/theuitown/neutron-code-editor/releases/download/1.0.0/Neutron-1.0.0.dmg"><img src="Frame 3.svg" class="dwnlogo"></a></td>
+    </tr>
+    <tr>
+      <td>Windows(.exe)</td>
+      <td class="dwn_lo"><a href="https://github.com/theuitown/neutron-code-editor/releases/download/1.0.0/neutron.1.0.0.exe"><img src="Frame 3.svg" class="dwnlogo"></a></td>
+    </tr>
+    <tr>
+      <td>Linux(.rpm)</td>
+      <td class="dwn_lo"><a href="https://github.com/theuitown/neutron-code-editor/releases/download/1.0.0/Neutron-1.0.0.x86_64.rpm"><img src="Frame 3.svg" class="dwnlogo"></a></td>
+    </tr>
+<tr>
+      <td>Linux(.AppImage)</td>
+      <td class="dwn_lo"><a href="https://github.com/theuitown/neutron-code-editor/releases/download/1.0.0/Neutron-1.0.0.AppImage"><img src="Frame 3.svg" class="dwnlogo"></a></td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        
+        <div class="goal" id="goal">
+            <h1>Project Goal</h1>
+            <p class="project">The goal of the project is to create a beautiful and extensible experience for front-end web developers,
+neutron is based on ace.js, html, css, js and it provides codepen like experience on your local machines.<br><br>In the future, we anticipate the community will come up with innovative additions to enhance what 
+could be the simplest, most powerful and well-tested interface for productivity.</p>
+        </div>
+
+<footer class="footer mt-auto py-3">
+  <div class="container">
+<div class="d-flex flex-column flex-md-row align-items-center p-4 px-md-4 bg-black">
+                        <img class="my-0 mr-md-auto font-weight-normal" width="40" height="40" alt="" src="https://raw.githubusercontent.com/theuitown/electron-code-editor/master/assets/general3.png">
+                        <nav class="my-2 my-md-0 mr-md-3 font-poppins">
+                          <a class="p-2 text-light" href="https://www.github.com/theuitown">GitHub</a>
+                          <a class="p-2 text-light" href="#downloads">Downloads</a>
+                          <a class="p-2 text-light" href="#screenshots">Donate</a>
+                          <a class="p-2 text-light" href="https://www.iamharsh.design/">Developer</a>
+                        </nav>
+                      </div>
+  </div>
+</footer>
+
+<!-- add this at the end of body --> 
+<div class="cursor-dot-outline"></div> <div class="cursor-dot"></div>
+
+<script src="https://codepen.io/harsh-vardhan/pen/yWzQBq.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="style.js"></script>
+  </body>
+</html>

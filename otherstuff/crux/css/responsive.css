@@ -1,0 +1,345 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    ul{
+        padding-inline-start: 0px;
+    }
+
+    .header{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .col-12  h1{
+        font-size:2rem;
+    }
+
+    .feature_headtext {
+        font-size:2rem;
+    }
+
+    .feature_text1{
+        font-size: 1.5rem;
+    }
+
+    .text_part_1{
+        margin:2rem;
+    }
+
+    .text_part_2{
+        margin:2rem;
+    }
+
+    .feature_section_2 {
+        padding-top: 0;}
+    
+    .screenshots{
+        padding-bottom:1rem; 
+    }
+
+    .screenshot_text {
+        font-size: 2rem;
+    }  
+
+    .screen3 img{
+     display: none;
+    }
+
+    .screen2 img:hover{
+        margin-bottom:1rem;
+        padding-bottom: 1rem;
+    }
+
+
+    .screen6 img{
+        margin-bottom:1.5rem;
+    }
+
+    .app_stats_heading {
+        font-size: 2rem;
+    }  
+
+    .downloads {
+        font-size:1.5rem;
+    }
+
+    .users {
+        font-size:1.5rem;
+    }
+
+    .ratings {
+        font-size:1.5rem;
+    }
+
+    .shares {
+        font-size:1.5rem;;
+    }
+
+    .count{
+        font-size: 1.8rem;
+    }
+
+    .testimonial_head {
+        font-size: 2rem;
+    }
+
+    .illustation_clent img {
+       display: none;
+    }
+
+    .testimonial {
+        background-size:370px auto;
+    }
+
+    .testimonial .pic {
+      width:50px;
+      height: 50px;
+    }
+
+    .owl-next:before{
+        font-size:18px;
+    }
+    .owl-next:before{
+        font-size: 18px;
+    }
+
+    .owl-theme .owl-controls {
+        top: 105px;
+    }
+
+    .testimonial .description {
+        font-size: 12px;
+    } 
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 769px) { 
+
+    ul{
+        padding-inline-start: 0px;
+    }
+
+    .header{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .col-12  h1{
+        font-size:2rem;
+    }
+
+    .feature_headtext {
+        font-size:2rem;
+    }
+
+    .feature_text1{
+        font-size: 1.5rem;
+    }
+
+    .text_part_1{
+        margin:2rem;
+    }
+
+    .text_part_2{
+        margin:2rem;
+    }
+
+    .feature_section_2 {
+        padding-top: 0;}
+    
+    .screenshots{
+        padding-bottom:1rem; 
+    }
+
+    .screenshot_text {
+        font-size: 2rem;
+    }  
+
+    .screen3 img{
+     display: none;
+    }
+
+
+    .screen2 img:hover{
+        margin-bottom:1rem;
+        padding-bottom: 1rem;
+    }
+
+
+    .screen6 img{
+        margin-bottom:1.5rem;
+    }
+
+    .app_stats_heading {
+        font-size: 2rem;
+    }  
+
+    .downloads {
+        font-size:1.5rem;
+    }
+
+    .users {
+        font-size:1.5rem;
+    }
+
+    .ratings {
+        font-size:1.5rem;
+    }
+
+    .shares {
+        font-size:1.5rem;;
+    }
+
+    .testimonial_head {
+        font-size: 2rem;
+    }
+
+    .illustation_clent img {
+       display: none;
+    }
+
+    .testimonial {
+        background-size:370px auto;
+    }
+
+    .testimonial .pic {
+      width:50px;
+      height: 50px;
+    }
+
+    .owl-next:before{
+        font-size:18px;
+    }
+    .owl-next:before{
+        font-size: 18px;
+    }
+
+    .owl-theme .owl-controls {
+        top: 105px;
+    }
+
+    .testimonial .description {
+        font-size: 12px;
+    } 
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    ul{
+        padding-inline-start: 0px;
+    }
+
+    .header{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .col-12  h1{
+        font-size:2rem;
+    }
+
+    .feature_headtext {
+        font-size:2rem;
+    }
+
+    .feature_text1{
+        font-size: 1.5rem;
+    }
+
+    .text_part_1{
+        margin:2rem;
+    }
+
+    .text_part_2{
+        margin:2rem;
+    }
+
+    .feature_section_2 {
+        padding-top: 0;}
+    
+    .screenshots{
+        padding-bottom:1rem; 
+    }
+
+    .screenshot_text {
+        font-size: 2rem;
+    }  
+
+    .screen3 img{
+     display: none;
+    }
+
+    .screen2 img:hover{
+        margin-bottom:1rem;
+        padding-bottom: 1rem;
+    }
+
+    .screen6 img{
+        margin-bottom:1.5rem;
+    }
+
+    .app_stats_heading {
+        font-size: 2rem;
+    }  
+
+    .downloads {
+        font-size:1.5rem;
+    }
+
+    .users {
+        font-size:1.5rem;
+    }
+
+    .ratings {
+        font-size:1.5rem;
+    }
+
+    .shares {
+        font-size:1.5rem;;
+    }
+
+    .testimonial_head {
+        font-size: 2rem;
+    }
+
+    .illustation_clent img {
+       display: none;
+    }
+
+    .testimonial {
+        background-size:370px auto;
+    }
+
+    .testimonial .pic {
+      width:50px;
+      height: 50px;
+    }
+
+    .owl-next:before{
+        font-size:18px;
+    }
+    .owl-next:before{
+        font-size: 18px;
+    }
+
+    .owl-theme .owl-controls {
+        top: 105px;
+    }
+
+    .testimonial .description {
+        font-size: 12px;
+    } 
+}
+/* Large devices (desktops, less than 1200px) */
+@media (width: 1024px) { 
+.illustation_clent img{
+    width:500px auto;
+}
+}
+
+@media (width:375px){
+    .screen2 img{
+        margin-left: 3rem;
+    }
+}
