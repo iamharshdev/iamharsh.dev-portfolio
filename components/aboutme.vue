@@ -1,29 +1,32 @@
 <template>
   <div id="section" class="wid80 center pb-4 pt-4">
-    <div class="wid80 centre mb-2">
-      <h1>Who <br />am i?</h1>
+    <div class="row center> <div class=" col-md-8 wid80 center>
+      <div class="wid80 centre mb-2">
+        <h1>Who <br />am i?</h1>
+      </div>
+      <p class="mb-1">{{ about.about[0] }}</p>
+      <p class="mb-2">{{ about.about[1] }}</p>
+      <p class="mb-2">{{ about.about[2] }}</p>
     </div>
-    <p class="mb-1 wow slideInUp">
-      I’m probably the most passionate designer you will ever work with. I've
-      been designing ever since I was in school, though I came to it from a
-      different career path of finance.
-    </p>
-    <p class="wow slideInUp">
-      I've shown my love for design in many ways. I was the head of the design
-      team in college. I started teaching design on my YouTube channel. I
-      decided to take it to the next level and help and mentor design
-      enthusiasts who are keen on getting into the design industry.
-    </p>
+    <div class="col-md-4 center">
+      <img :src="getImageUrl(myimages)" style="width: 100%; height: 100%;" />
+    </div>
   </div>
 </template>
 
 <script>
+import data from '../json/data.json'
 export default {
-  mounted() {
-    if (process.browser) {
-      // eslint-disable-next-line no-undef
-      new WOW().init()
+  data() {
+    return {
+      myimages: 'dp1.jpg',
+      about: data,
     }
+  },
+  methods: {
+    getImageUrl(img) {
+      return require('../assets/dp/' + img)
+    },
   },
 }
 </script>

@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'Pero';
-  src: url("../fonts/perofont1.otf") format("opentype");
+  src: url('../fonts/perofont1.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Peroaf';
-  src: url("../fonts/perofont2.otf") format("opentype");
+  src: url('../fonts/perofont2.otf') format('opentype');
 }
 
 h1,
 .h1 {
   margin-bottom: 0.5rem;
   line-height: 1.2;
-  font-family: "Peroaf", sans-serif;
+  font-family: 'Peroaf', sans-serif;
   font-size: 65px;
   color: #2c2c2e;
 }
@@ -22,7 +22,7 @@ h2,
   margin-bottom: 0.5rem;
   font-weight: 600;
   line-height: 1.2;
-  font-family: "Peroaf", sans-serif;
+  font-family: 'Peroaf', sans-serif;
   font-size: 2rem;
 }
 
@@ -30,7 +30,7 @@ h3,
 .h3 {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  font-family: "Pero", sans-serif;
+  font-family: 'Pero', sans-serif;
   line-height: 1.2;
   font-size: 1.75rem;
 }
@@ -39,7 +39,7 @@ h4,
 .h4 {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  font-family: "Pero", sans-serif;
+  font-family: 'Pero', sans-serif;
   line-height: 1.2;
   font-size: 1.5rem;
 }
@@ -49,7 +49,7 @@ h5,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  font-family: "Pero", sans-serif;
+  font-family: 'Pero', sans-serif;
   font-size: 1.25rem;
 }
 
@@ -58,7 +58,7 @@ h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  font-family: "Pero", sans-serif;
+  font-family: 'Pero', sans-serif;
   font-size: 1rem;
 }
 
@@ -68,7 +68,7 @@ p {
 
 p,
 .cool-link {
-  font-family: "Pero", sans-serif;
+  font-family: 'Pero', sans-serif;
 }
 
 .lead {
@@ -120,11 +120,10 @@ small {
 .span_bold,
 .bold {
   font-weight: bold;
-  font-family: "Peroaf", sans-serif;
+  font-family: 'Peroaf', sans-serif;
 }
 
 @media (max-width: 769px) {
-
   h1,
   .h1 {
     font-size: 2.1rem;
@@ -182,4 +181,24 @@ button {
 
 h1 s {
   text-decoration: none;
+}
+
+#cyan:hover {
+  color:#60D9fe;
+}
+
+#yellow:hover {
+  color:#e5a500;
+}
+#blueviolet:hover {
+  color:#608afe;
+}
+#green:hover {
+  color:#5dc942;
+}
+#violet:hover {
+  color:#7b79ff;
+}
+#pinkred:hover {
+  color:#fe335e;
 }

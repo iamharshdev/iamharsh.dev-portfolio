@@ -61,14 +61,33 @@ export default {
   },
   mounted() {
     if (process.browser) {
-      // eslint-disable-next-line no-undef
-      new WOW().init()
-
       const overlay = document.getElementById('preloader')
       window.addEventListener('load', function () {
         overlay.style.display = 'none'
       })
-
+      const menu = document.querySelector('.menu-icon')
+      // eslint-disable-next-line camelcase
+      const menu_content = document.querySelector('.menu_content')
+      const item = document.querySelectorAll('.rev-block')
+      for (let index = 0; index < item.length; index++) {
+        const element = item[index]
+        element.addEventListener('click', () => {
+          menu.classList.remove('nav-active')
+          menu_content.classList.remove('hidden')
+        })
+      }
+      menu.addEventListener('click', () => {
+        if (
+          menu.classList.contains('nav-active') &&
+          menu_content.classList.contains('hidden')
+        ) {
+          menu.classList.remove('nav-active')
+          menu_content.classList.remove('hidden')
+        } else {
+          menu.classList.add('nav-active')
+          menu_content.classList.add('hidden')
+        }
+      })
       const body = document.body
       const main = document.getElementById('luxy')
       let sx = 0 // For scroll positions

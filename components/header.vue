@@ -1,20 +1,21 @@
 <template>
   <div id="section" class="header pt-4 row wid80 pb-4 center">
-    <div
-      v-for="(img, index) in myimages"
-      :key="index"
-      :class="`img img-${index + 1}`"
-      :style="{ backgroundImage: `url(${getImageUrl(img)})` }"
-    ></div>
     <section class="col">
       <h1 class="mt-4 row" style="color: white;">
-        <s>H</s><s>e</s><s>l</s><s>l</s><s>o</s><s>,&nbsp;</s><s>I</s><s>'</s
-        ><s>m&nbsp;</s><s>H</s><s>a</s><s>r</s><s>s</s><s>h.</s>
+        <s id="cyan">H</s><s id="green">e</s><s id="yellow">l</s
+        ><s id="pinkred">l</s><s id="violet">o</s><s id="blueviolet">,&nbsp;</s
+        ><s id="cyan">I</s><s id="green">'</s><s id="yellow">m&nbsp;</s
+        ><s id="violet">H</s><s id="pinkred">a</s><s id="blueviolet">r</s
+        ><s id="cyan">s</s><s id="green">h.</s>
       </h1>
       <h1 class="row" style="color: white;">
-        <s>a&nbsp;</s><s>f</s><s>u</s><s>l</s><s>l</s><s>-</s><s>s</s><s>t</s
-        ><s>a</s><s>c</s><s>k&nbsp;</s><s>d</s><s>e</s><s>v</s><s>e</s><s>l</s
-        ><s>o</s><s>p</s><s>e</s><s>r</s>
+        <s id="yellow">a&nbsp;</s><s id="violet">f</s><s id="blueviolet">u</s
+        ><s id="cyan">l</s><s id="green">l</s><s id="yellow">-</s
+        ><s id="blueviolet">s</s><s id="green">t</s><s id="pinkred">a</s
+        ><s id="yellow">c</s><s id="green">k&nbsp;</s><s id="violet">d</s
+        ><s id="blueviolet">e</s><s id="yellow">v</s><s id="pinkred">e</s
+        ><s id="violet">l</s><s id="pinkred">o</s><s id="green">p</s
+        ><s id="yellow">e</s><s id="blueviolet">r</s>
       </h1>
       <div class="wrap-info mt-3">
         <lol>
@@ -60,55 +61,17 @@
 
 <script>
 export default {
-  data() {
-    return {
-      myimages: [
-        'myimage1.webp',
-        'myimage2.webp',
-        'myimage3.webp',
-        'myimage4.webp',
-      ],
-    }
-  },
   mounted() {
     if (process.browser) {
       // eslint-disable-next-line no-undef
       setAnimationSaxx('s', 'saxx jello')
       // eslint-disable-next-line no-undef
-      setSaxxMouseEffect('s', 'saxx jello', 'white', 'grey')
+      setSaxxMouseEffect('s', 'saxx jello')
       // eslint-disable-next-line no-undef
       setAnimationSaxx('lol', 'saxx jello')
       // eslint-disable-next-line no-undef
-      setSaxxMouseEffect('lol', 'saxx jello', 'white', 'white')
-      const img1 = document.querySelector('.img-1')
-      const img2 = document.querySelector('.img-2')
-      const img3 = document.querySelector('.img-3')
-      const img4 = document.querySelector('.img-4')
-
-      document.addEventListener('mousemove', (e) => {
-        img1.setAttribute(
-          'style',
-          'top:' + (e.pageY - 225) + 'px;left :' + (e.pageX - 200) + 'px'
-        )
-        img2.setAttribute(
-          'style',
-          'top:' + (e.pageY - 225) + 'px;left :' + (e.pageX - 200) + 'px'
-        )
-        img3.setAttribute(
-          'style',
-          'top:' + (e.pageY - 225) + 'px;left :' + (e.pageX - 200) + 'px'
-        )
-        img4.setAttribute(
-          'style',
-          'top:' + (e.pageY - 225) + 'px;left :' + (e.pageX - 200) + 'px'
-        )
-      })
+      setSaxxMouseEffect('lol', 'saxx jello')
     }
-  },
-  methods: {
-    getImageUrl(img) {
-      return require('../assets/dp/' + img)
-    },
   },
 }
 </script>
