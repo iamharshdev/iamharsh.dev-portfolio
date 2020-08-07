@@ -7,24 +7,26 @@
       <div
         v-for="(project, index) in Projects"
         :key="project"
-        class="col-md-6 mb-3 wow slideInUp"
+        class="col-md-6 mb-3"
       >
-        <div
-          class="card wid90 center"
-          data-tilt
-          :style="{ backgroundImage: `url(${getImageUrl(project.img)})` }"
-        >
-          <div class="card-inner wid60">
-            <h2>{{ project.name }}</h2>
-            <button class="learn-more mb-1" @click="viewProject(project.title)">
-              <span class="circle">
-                <span class="icon arrow"></span>
-              </span>
-              <span class="button-text">Read More</span>
-            </button>
-            <h2>{{ index }}</h2>
+        <a :href="project.link">
+          <div
+            class="card wid90 center"
+            data-tilt
+            :style="{ backgroundImage: `url(${getImageUrl(project.img)})` }"
+          >
+            <div class="card-inner wid60">
+              <h2>{{ project.name }}</h2>
+              <button class="learn-more mb-1">
+                <span class="circle">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Read More</span>
+              </button>
+              <h2>{{ index }}</h2>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -35,33 +37,43 @@ export default {
   data() {
     return {
       Projects: [
-        { name: 'Biotree', img: 'biotree.webp' },
-        { name: 'Walldrops', img: 'walldrops.webp' },
+        { name: 'Biotree', img: 'biotree.webp', link: '/biotree' },
+        { name: 'Walldrops', img: 'walldrops.webp', link: '/walldrops' },
         {
           name: 'Falsomlake Carwash Website',
           img: 'falsomcarwash.webp',
+          link: 'https://folsomlakehandcarwash.com/',
         },
-        { name: 'Contra CSS Kit', img: 'contracss.webp' },
+        {
+          name: 'Contra CSS Kit',
+          img: 'contracss.webp',
+          link: 'https://codepen.io/harsh-vardhan/pen/RwWRqKE',
+        },
         {
           name: 'Gocorona : COVID Stats Website',
           img: 'gocorona.webp',
+          link: 'https://gocorona.wtf/',
         },
-        { name: 'COVID News API', img: 'coronews.webp' },
+        {
+          name: 'COVID News API',
+          img: 'coronews.webp',
+          link: 'https://coronews.iamharsh.dev/',
+        },
         {
           name: 'Leit-anim : Animation Library',
           img: 'leit-anim.webp',
+          link: 'https://saxxtext.iamharsh.dev/',
         },
         {
           name: 'Neutron Code Editor',
           img: 'neutron_Code_editor.webp',
+          link: 'https://neutron.iamharsh.dev',
         },
       ],
     }
   },
   mounted() {
     if (process.browser) {
-      // eslint-disable-next-line no-undef
-      new WOW().init()
       const element = document.querySelectorAll('.card')
       // eslint-disable-next-line no-undef
       element.forEach(inittilt)

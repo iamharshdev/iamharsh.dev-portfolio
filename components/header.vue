@@ -9,7 +9,7 @@
         ><s id="cyan">s</s><s id="green">h.</s>
       </h1>
       <h1 class="row" style="color: white;">
-        <s id="yellow">a&nbsp;</s><s id="violet">f</s><s id="blueviolet">u</s
+        <s id="yellow">a&nbsp;</s><s id="violet">f</s><s id="pinkred">u</s
         ><s id="cyan">l</s><s id="green">l</s><s id="yellow">-</s
         ><s id="blueviolet">s</s><s id="green">t</s><s id="pinkred">a</s
         ><s id="yellow">c</s><s id="green">k&nbsp;</s><s id="violet">d</s
@@ -68,9 +68,9 @@ export default {
       // eslint-disable-next-line no-undef
       setSaxxMouseEffect('s', 'saxx jello')
       // eslint-disable-next-line no-undef
-      setAnimationSaxx('lol', 'saxx jello')
+      setAnimationSaxx('.arrow', 'saxx jello')
       // eslint-disable-next-line no-undef
-      setSaxxMouseEffect('lol', 'saxx jello')
+      setSaxxMouseEffect('.arrow', 'saxx jello')
     }
   },
 }

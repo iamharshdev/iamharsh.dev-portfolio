@@ -8,6 +8,11 @@
   src: url('../fonts/perofont2.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'Biko';
+  src: url('../fonts/Biko_Regular.otf') format('opentype');
+}
+
 h1,
 .h1 {
   margin-bottom: 0.5rem;
@@ -15,6 +20,11 @@ h1,
   font-family: 'Peroaf', sans-serif;
   font-size: 65px;
   color: #2c2c2e;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 h2,
@@ -39,7 +49,7 @@ h4,
 .h4 {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  font-family: 'Pero', sans-serif;
+  font-family: 'Peroaf', sans-serif;
   line-height: 1.2;
   font-size: 1.5rem;
 }
@@ -62,13 +72,14 @@ h6,
   font-size: 1rem;
 }
 
-p {
-  line-height: 1.6rem;
-}
-
-p,
 .cool-link {
   font-family: 'Pero', sans-serif;
+}
+
+p {
+  font-family: 'Biko', sans-serif;
+  font-size: 24px;
+  line-height: 2.5rem;
 }
 
 .lead {
@@ -123,7 +134,18 @@ small {
   font-family: 'Peroaf', sans-serif;
 }
 
+ul li {
+  font-family: 'Biko', sans-serif;
+}
+
+.px24 {
+  font-family: 'Biko', sans-serif;
+  font-size: 24px;
+  line-height: 2.5rem;
+}
+
 @media (max-width: 769px) {
+
   h1,
   .h1 {
     font-size: 2.1rem;
@@ -152,6 +174,22 @@ small {
   h6,
   .h6 {
     font-size: 0.8rem;
+  }
+
+  .socialmedia_links i {
+    font-size: 2rem !important;
+  }
+
+  button .pr-1 {
+    font-size: 1rem;
+  }
+
+  .im {
+    font-size: 1rem !important;
+  }
+
+  .contact-link {
+    font-size: 2.5rem !important;
   }
 }
 
@@ -184,21 +222,25 @@ h1 s {
 }
 
 #cyan:hover {
-  color:#60D9fe;
+  color: #60D9fe;
 }
 
 #yellow:hover {
-  color:#e5a500;
+  color: #e5a500;
 }
+
 #blueviolet:hover {
-  color:#608afe;
+  color: #608afe;
 }
+
 #green:hover {
-  color:#5dc942;
+  color: #5dc942;
 }
+
 #violet:hover {
-  color:#7b79ff;
+  color: #7b79ff;
 }
+
 #pinkred:hover {
-  color:#fe335e;
+  color: #fe335e;
 }

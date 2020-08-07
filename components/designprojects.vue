@@ -4,11 +4,7 @@
       <h1>i can <br />design as well!</h1>
     </div>
     <div class="row wid100 space-bw mt-2 mb-4">
-      <div
-        v-for="design in designProjects"
-        :key="design"
-        class="col-md-6 wow slideInUp"
-      >
+      <div v-for="design in designProjects" :key="design" class="col-md-6">
         <div class="wid90 center">
           <a :href="design.link" target="blank">
             <div class="design_card">
@@ -74,12 +70,6 @@ export default {
             'https://cdn.dribbble.com/users/2742291/screenshots/6576182/seo-expert-girl-illustration-234691.png',
         },
       ],
-    }
-  },
-  mounted() {
-    if (process.browser) {
-      // eslint-disable-next-line no-undef
-      new WOW().init()
     }
   },
 }

@@ -132,7 +132,7 @@
   display: block;
   margin-top: 5px;
   height: 2px;
-  width: 25%;
+  width: 0;
   transition: width .5s ease;
   background: #fff;
 }

@@ -17,11 +17,13 @@ export default {
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
+      { name: 'theme-color', content: '#00000' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content:
+          'Hey, this is Harsh Vardhan Goswami. I am a full-stack web developer and a UI/UX enthusiast. I love to design and develop websites/apps for human beings to make their life easier.',
       },
     ],
     link: [
@@ -37,10 +39,6 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://iamharsh.dev/saxxtext/lib/saxxtext.min.css',
-      },
-      {
-        rel: 'stylesheet',
         href:
           'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css',
       },
@@ -50,7 +48,9 @@ export default {
         src:
           'https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js',
       },
-      { src: 'https://iamharsh.dev/saxxtext/lib/saxxtext.min.js' },
+      {
+        src: 'https://unpkg.com/saxxtext@1.1.0/saxxtext.js',
+      },
       {
         src: 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js',
       },
@@ -63,7 +63,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['styles/style.css', 'styles/typo.css'],
+  css: ['styles/style.css', 'styles/typo.css', 'styles/saxxtext.min.css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins

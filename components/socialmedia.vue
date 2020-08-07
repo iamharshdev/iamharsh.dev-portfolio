@@ -1,8 +1,8 @@
 <template>
   <div class="wid80 center">
     <div class="wid80 centre">
-      <h1 class="wow slideInUp">Instagram</h1>
-      <p class="wow slideInUp">
+      <h1>Instagram</h1>
+      <p>
         I am sharing my journey as a designer/developer on my Instagram handle.
         So, you can follow me up on instagram for some useful content and if you
         have any queries related to coding & design you can hit me up with a DM.
@@ -12,7 +12,7 @@
       <a
         v-for="post in posts"
         :key="post"
-        class="p-1 col-md-4 wow slideInUp"
+        class="p-1 col-md-4"
         :href="post.link"
       >
         <img :src="post.img" />
@@ -20,41 +20,42 @@
     </div>
     <div class="center-text mt-4 mb-4">
       <a href="https://instgram.com/iamharsh.dev" target="blank"
-        ><button
-          class="main-btn instacolor center-text row center wow slideInUp"
-        >
+        ><button class="main-btn instacolor center-text row center">
           <div class="pr-1">View All Posts on Instagram</div>
           <i class="im im-instagram"></i></button
       ></a>
     </div>
     <div class="wid80 centre">
-      <h1 class="wow slideInUp">YouTube</h1>
-      <p class="wow slideInUp">
-        I am sharing my journey as a designer/developer on my Instagram handle.
-        So, you can follow me up on instagram for some useful content and if you
-        have any queries related to coding & design you can hit me up with a DM.
+      <h1>YouTube</h1>
+      <p>
+        I am sharing design/development tutorials on my YouTube channel. So, you
+        can subscribe me up on my YouTube channel for some useful content and if
+        you have any queries related to coding & design you can always hit me up
+        with a DM on Instagram.
       </p>
     </div>
     <div class="row wid100 youtube mt-3">
       <a
         v-for="video in youtube"
         :key="video"
-        class="p-1 col-md-6 wow slideInUp"
+        class="p-1 col-md-6"
         :href="video.link"
       >
         <img :src="video.img" />
       </a>
     </div>
     <div class="center-text mt-4 mb-4">
-      <a href="https://instgram.com/iamharsh.dev" target="blank"
-        ><button class="main-btn red center-text row center wow slideInUp">
+      <a
+        href="https://www.youtube.com/channel/UC0NajLO3hRx2mShwBW7ogJA"
+        target="blank"
+        ><button class="main-btn red center-text row center">
           <div class="pr-1">View All Videos on YouTube</div>
           <i class="im im-youtube"></i></button
       ></a>
     </div>
     <div class="wid80 centre">
       <h1>Stay, Connect & Learn with Me</h1>
-      <p class="wow slideInUp">
+      <p>
         Hey! If you wanna connect & learn with me so here are some links to my
         social media handles for you.
       </p>
@@ -63,7 +64,7 @@
       <a href="https://www.linkedin.com/in/iamharshdev"
         ><i class="im im-linkedin twitter-blue socialicon"></i>
       </a>
-      <a href="https://github.com/theuitown/"
+      <a href="https://github.com/iamharshdev/"
         ><i class="im im-github github-green socialicon"></i
       ></a>
       <a href="https://dribbble.com/electronlabs"
@@ -144,12 +145,6 @@ export default {
           img: 'http://i3.ytimg.com/vi/2uaeNHCHC40/maxresdefault.jpg',
         },
       ],
-    }
-  },
-  mounted() {
-    if (process.browser) {
-      // eslint-disable-next-line no-undef
-      new WOW().init()
     }
   },
 }

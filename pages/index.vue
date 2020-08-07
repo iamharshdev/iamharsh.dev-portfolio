@@ -15,18 +15,18 @@
         <div class="text-11 text">don't create limitations</div>
       </div>
     </div>
-    <div id="luxy" class="smooth-scroll-wrapper">
+    <div id="luxy">
       <Navbar />
       <div id="distort">
         <Header />
-        <Aboutme />
+        <Aboutme id="about" />
         <Work />
         <SmallProjects />
         <DesignProjects />
         <Blogs />
         <About />
         <SocialMedia />
-        <Contact />
+        <Contact id="contact" />
       </div>
       <Footer />
     </div>
@@ -62,9 +62,9 @@ export default {
   mounted() {
     if (process.browser) {
       const overlay = document.getElementById('preloader')
-      window.addEventListener('load', function () {
+      setTimeout(function () {
         overlay.style.display = 'none'
-      })
+      }, 3000)
       const menu = document.querySelector('.menu-icon')
       // eslint-disable-next-line camelcase
       const menu_content = document.querySelector('.menu_content')
@@ -109,8 +109,8 @@ export default {
       // eslint-disable-next-line no-inner-declarations
       function render() {
         // We calculate our container position by linear interpolation method
-        dx = li(dx, sx, 0.07)
-        dy = li(dy, sy, 0.07)
+        dx = li(dx, sx, 0.08)
+        dy = li(dy, sy, 0.08)
         dx = Math.floor(dx * 100) / 100
         dy = Math.floor(dy * 100) / 100
         main.style.transform = `translate3d(-${dx}px, -${dy}px, 0px)`
@@ -125,13 +125,16 @@ export default {
       const callDistort = function () {
         const newPos = window.pageYOffset
         const diff = newPos - currentPos
-        const speed = diff * 0.1
+        const speed = diff * 0.15
         content.style.transform = 'skewY(' + speed + 'deg)'
         currentPos = newPos
         requestAnimationFrame(callDistort)
       }
       callDistort()
     }
+  },
+  head: {
+    title: 'Harsh Vardhan | Web Dev & UI/UX Designer',
   },
 }
 </script>
