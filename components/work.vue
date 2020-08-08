@@ -1,7 +1,7 @@
 <template>
   <div id="section" class="work mt-4 row wid80 center">
     <div class="wid80 centre mb-4 mt-4">
-      <h1>favored_<br />projects</h1>
+      <h1 id="yellow">favored_<br />projects</h1>
     </div>
     <div class="row space-bw wid100">
       <div

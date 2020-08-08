@@ -181,7 +181,7 @@ ul li {
   }
 
   button .pr-1 {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
   .im {
@@ -221,26 +221,44 @@ h1 s {
   text-decoration: none;
 }
 
+.cyan,
 #cyan:hover {
   color: #60D9fe;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
+.yellow,
 #yellow:hover {
   color: #e5a500;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
+.blueviolet,
 #blueviolet:hover {
   color: #608afe;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
+.green,
 #green:hover {
   color: #5dc942;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
+.violet,
 #violet:hover {
   color: #7b79ff;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
+.pinkred,
 #pinkred:hover {
   color: #fe335e;
+  cursor: pointer;
+  transition: 0.3s ease;
 }

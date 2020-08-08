@@ -4,7 +4,7 @@
       <div class="col-md-8 center">
         <div class="wid80 center">
           <div class="wid80 centre mb-2">
-            <h1>Who <br />am i?</h1>
+            <h1 id="violet">Who <br />am i?</h1>
           </div>
           <p class="mb-1">{{ about.about[0] }}</p>
           <p class="mb-2">{{ about.about[1] }}</p>

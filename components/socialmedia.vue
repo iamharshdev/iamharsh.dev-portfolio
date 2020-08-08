@@ -1,7 +1,7 @@
 <template>
   <div class="wid80 center">
     <div class="wid80 centre">
-      <h1>Instagram</h1>
+      <h1 id="pinkred">Instagram</h1>
       <p>
         I am sharing my journey as a designer/developer on my Instagram handle.
         So, you can follow me up on instagram for some useful content and if you
@@ -26,7 +26,7 @@
       ></a>
     </div>
     <div class="wid80 centre">
-      <h1>YouTube</h1>
+      <h1 id="yellow">YouTube</h1>
       <p>
         I am sharing design/development tutorials on my YouTube channel. So, you
         can subscribe me up on my YouTube channel for some useful content and if
@@ -54,7 +54,7 @@
       ></a>
     </div>
     <div class="wid80 centre">
-      <h1>Stay, Connect & Learn with Me</h1>
+      <h1 id="violet">Stay, Connect & Learn with Me</h1>
       <p>
         Hey! If you wanna connect & learn with me so here are some links to my
         social media handles for you.

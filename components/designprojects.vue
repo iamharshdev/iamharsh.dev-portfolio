@@ -1,7 +1,7 @@
 <template>
   <div class="wid80 center">
     <div class="wid80 centre pb-2">
-      <h1>i can <br />design as well!</h1>
+      <h1 id="pinkred">i can <br />design as well!</h1>
     </div>
     <div class="row wid100 space-bw mt-2 mb-4">
       <div v-for="design in designProjects" :key="design" class="col-md-6">

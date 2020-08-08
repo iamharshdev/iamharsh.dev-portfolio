@@ -1,7 +1,7 @@
 <template>
   <div class="wid80 center">
     <div class="wid80 centre pb-2">
-      <h1 class="mb-2">Blogs <br />by me</h1>
+      <h1 id="blueviolet" class="mb-2">Blogs <br />by me</h1>
       <p>
         Hey! I have a blog named Electron where i mainly talk about design &
         development tips. So, do make sure you check it out.

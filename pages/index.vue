@@ -62,70 +62,23 @@ export default {
   mounted() {
     if (process.browser) {
       const overlay = document.getElementById('preloader')
-      setTimeout(function () {
+      setTimeout(() => {
         overlay.style.display = 'none'
       }, 3000)
-      const menu = document.querySelector('.menu-icon')
-      // eslint-disable-next-line camelcase
-      const menu_content = document.querySelector('.menu_content')
-      const item = document.querySelectorAll('.rev-block')
-      for (let index = 0; index < item.length; index++) {
-        const element = item[index]
-        element.addEventListener('click', () => {
-          menu.classList.remove('nav-active')
-          menu_content.classList.remove('hidden')
-        })
-      }
-      menu.addEventListener('click', () => {
-        if (
-          menu.classList.contains('nav-active') &&
-          menu_content.classList.contains('hidden')
-        ) {
-          menu.classList.remove('nav-active')
-          menu_content.classList.remove('hidden')
-        } else {
-          menu.classList.add('nav-active')
-          menu_content.classList.add('hidden')
-        }
+      // eslint-disable-next-line no-undef
+      luxy.init({
+        // selector of main container
+        wrapper: '#luxy',
+        // speed
+        wrapperSpeed: 0.08,
+        targetSpeed: 0.02,
       })
-      const body = document.body
-      const main = document.getElementById('luxy')
-      let sx = 0 // For scroll positions
-      let sy = 0
-      let dx = sx // For container positions
-      let dy = sy
-      body.style.height = main.clientHeight + 'px'
-      main.style.position = 'fixed'
-      main.style.top = 0
-      main.style.left = 0
-      // Bind a scroll function
-      window.addEventListener('scroll', easeScroll)
-      // eslint-disable-next-line no-inner-declarations
-      function easeScroll() {
-        sx = window.pageXOffset
-        sy = window.pageYOffset
-      }
-      window.requestAnimationFrame(render)
-      // eslint-disable-next-line no-inner-declarations
-      function render() {
-        // We calculate our container position by linear interpolation method
-        dx = li(dx, sx, 0.08)
-        dy = li(dy, sy, 0.08)
-        dx = Math.floor(dx * 100) / 100
-        dy = Math.floor(dy * 100) / 100
-        main.style.transform = `translate3d(-${dx}px, -${dy}px, 0px)`
-        window.requestAnimationFrame(render)
-      }
-      // eslint-disable-next-line no-inner-declarations
-      function li(a, b, n) {
-        return (1 - n) * a + n * b
-      }
       const content = document.querySelector('#distort')
       let currentPos = window.pageYOffset
       const callDistort = function () {
         const newPos = window.pageYOffset
         const diff = newPos - currentPos
-        const speed = diff * 0.15
+        const speed = diff * 0.1
         content.style.transform = 'skewY(' + speed + 'deg)'
         currentPos = newPos
         requestAnimationFrame(callDistort)

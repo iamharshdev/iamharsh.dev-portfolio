@@ -1,7 +1,7 @@
 <template>
   <div id="section" class="wid80 center pb-4">
     <div class="wid80 centre mb-2">
-      <h1>My adroitness</h1>
+      <h1 id="green">My adroitness</h1>
       <p>
         This is what my Design & Development adroitness looks like:
       </p>

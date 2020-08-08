@@ -23,7 +23,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Hey, this is Harsh Vardhan Goswami. I am a full-stack web developer and a UI/UX enthusiast. I love to design and develop websites/apps for human beings to make their life easier.',
+          'Hey, this is Harsh Vardhan Goswami. I am a full-stack web developer and a UI/UX aficionado. I love to design and develop websites/apps for human beings to make their life easier.',
       },
     ],
     link: [
@@ -37,11 +37,6 @@ export default {
         href:
           'https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css',
       },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css',
-      },
     ],
     script: [
       {
@@ -52,11 +47,10 @@ export default {
         src: 'https://unpkg.com/saxxtext@1.1.0/saxxtext.js',
       },
       {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js',
+        src: 'https://unpkg.com/luxy.js@0.1.0/dist/js/luxy.min.js',
       },
       {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js',
+        src: 'https://unpkg.com/wow.js@1.2.2/dist/wow.min.js',
       },
     ],
   },
@@ -82,6 +76,12 @@ export default {
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-159928242-1',
+      },
+    ],
   ],
   /*
    ** Nuxt.js modules
@@ -91,6 +91,16 @@ export default {
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
   ],
+  pwa: {
+    manifest: {
+      short_name: 'iamharsh.dev',
+      name: 'Harsh Vardhan',
+      start_url: '/',
+      theme_color: '#000',
+      background_color: '#000',
+      description: 'Harsh Vardhan | Web dev & UI/UX aficionado',
+    },
+  },
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration

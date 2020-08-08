@@ -1,7 +1,7 @@
 <template>
   <div id="section" class="small_projects mt-2 pb-2 mb-2">
     <div class="wid80 center">
-      <h1 class="mb-4">$CodeLab_</h1>
+      <h1 id="cyan" class="mb-4">$CodeLab_</h1>
       <p class="mb-2">
         Hey! I also did some small projects for fun :)
       </p>
