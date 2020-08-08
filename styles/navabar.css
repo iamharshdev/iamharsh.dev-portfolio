@@ -65,10 +65,6 @@
 }
 
 @media (max-width:769px){
-  .menu_content ul li {
-    padding: .5rem;
-    font-size: calc(2vw+1px);
-  }
   .menu_content ul {
     width:80%;
     margin: 0 auto;
