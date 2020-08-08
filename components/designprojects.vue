@@ -10,7 +10,7 @@
             <div class="design_card">
               <img :src="design.img" />
               <h3 class="mt-1 mb-1">{{ design.title }}</h3>
-              <p style="color: #2c2c2e;" class="mb-2">{{ design.status }}</p>
+              <p style="color: #666;" class="mb-2">{{ design.status }}</p>
             </div>
           </a>
         </div>

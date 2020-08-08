@@ -14,7 +14,7 @@
             <div class="blogs_card">
               <img :src="blog.img" />
               <h3 class="mt-1 mb-1">{{ blog.title }}</h3>
-              <p style="color: #2c2c2e;" class="mb-2">
+              <p style="color: #666;" class="mb-2">
                 Written by Harsh Vardhan Goswami
               </p>
             </div>

@@ -18,37 +18,35 @@
         ><s id="yellow">e</s><s id="blueviolet">r</s>
       </h1>
       <div class="wrap-info mt-3">
-        <lol>
-          <svg
-            class="arrow"
-            width="53px"
-            height="53px"
-            viewBox="0 0 53 53"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+        <svg
+          class="arrow"
+          width="53px"
+          height="53px"
+          viewBox="0 0 53 53"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g
+            id="arrow-wrap"
+            stroke="none"
+            stroke-width="3"
+            fill="none"
+            fill-rule="evenodd"
           >
             <g
-              id="arrow-wrap"
-              stroke="none"
+              id="arrow"
+              transform="translate(-904.000000, -343.000000)"
+              stroke="#FFFFFF"
               stroke-width="3"
-              fill="none"
-              fill-rule="evenodd"
             >
-              <g
-                id="arrow"
-                transform="translate(-904.000000, -343.000000)"
-                stroke="#FFFFFF"
-                stroke-width="3"
-              >
-                <path
-                  id="wrap-arrow"
-                  d="M912.545285,345 L946.743,379.198 L946.74357,345.246688 L956,345.246688 L956,395 L906.246688,395 L906.246688,385.74357 L940.198,385.743 L906,351.545285 L912.545285,345 Z"
-                ></path>
-              </g>
+              <path
+                id="wrap-arrow"
+                d="M912.545285,345 L946.743,379.198 L946.74357,345.246688 L956,345.246688 L956,395 L906.246688,395 L906.246688,385.74357 L940.198,385.743 L906,351.545285 L912.545285,345 Z"
+              ></path>
             </g>
-          </svg>
-        </lol>
+          </g>
+        </svg>
         <h3 class="mt-3">
           <span class="s-03"
             ><span>Currently works as freelance web developer & </span></span
@@ -67,10 +65,6 @@ export default {
       setAnimationSaxx('s', 'saxx jello')
       // eslint-disable-next-line no-undef
       setSaxxMouseEffect('s', 'saxx jello')
-      // eslint-disable-next-line no-undef
-      setAnimationSaxx('.arrow', 'saxx jello')
-      // eslint-disable-next-line no-undef
-      setSaxxMouseEffect('.arrow', 'saxx jello')
     }
   },
 }

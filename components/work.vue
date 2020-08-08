@@ -9,24 +9,24 @@
         :key="project"
         class="col-md-6 mb-3"
       >
-        <a :href="project.link">
-          <div
-            class="card wid90 center"
-            data-tilt
-            :style="{ backgroundImage: `url(${getImageUrl(project.img)})` }"
-          >
-            <div class="card-inner wid60">
-              <h2>{{ project.name }}</h2>
+        <div
+          class="card wid90 center"
+          data-tilt
+          :style="{ backgroundImage: `url(${getImageUrl(project.img)})` }"
+        >
+          <div class="card-inner wid60">
+            <h2>{{ project.name }}</h2>
+            <a :href="project.link">
               <button class="learn-more mb-1">
                 <span class="circle">
                   <span class="icon arrow"></span>
                 </span>
                 <span class="button-text">Read More</span>
               </button>
-              <h2>{{ index }}</h2>
-            </div>
+            </a>
+            <h2>{{ index }}</h2>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   </div>

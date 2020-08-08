@@ -19,7 +19,7 @@ h1,
   line-height: 1.2;
   font-family: 'Peroaf', sans-serif;
   font-size: 65px;
-  color: #2c2c2e;
+  color: #666;
 }
 
 p {
@@ -148,27 +148,27 @@ ul li {
 
   h1,
   .h1 {
-    font-size: 2.1rem;
+    font-size: 1.80rem;
   }
 
   h2,
   .h2 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   h3,
   .h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   h4,
   .h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   h5,
   .h5 {
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
   h6,
