@@ -59,7 +59,8 @@ export default {
       skills: {
         code: [
           'HTML5/CSS3/JS',
-          'Nuxt.js/Vue.js/React.js/Node.js/Express.js',
+          'Nuxt.js/Vue.js/React.js',
+          'Node.js/Express.js',
           'Bootstrap',
           'Mobile Development',
           'Python',
