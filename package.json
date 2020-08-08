@@ -21,8 +21,7 @@
       "pre-commit": "lint-staged"
     }
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/stylelint-module": "^4.0.0",
@@ -41,5 +40,6 @@
     "stylelint": "^13.6.1",
     "stylelint-config-prettier": "^8.0.1",
     "stylelint-config-standard": "^20.0.0"
-  }
+   },
+  "devDependencies": {}
 }
