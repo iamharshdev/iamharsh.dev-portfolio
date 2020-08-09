@@ -11,9 +11,6 @@
           <span class="cool-link" @click="home()">Home</span>
         </li>
         <li class="rev-block">
-          <span class="cool-link" @click="about()">About</span>
-        </li>
-        <li class="rev-block">
           <a href="https://electron.iamharsh.dev/" target="blank"
             ><span class="cool-link">Blog</span></a
           >

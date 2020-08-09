@@ -2,17 +2,16 @@
   <div id="section" class="header pt-4 row wid80 pb-4 center">
     <section class="col">
       <h1 class="mt-4 row" style="color: white;">
-        <s id="cyan">H</s><s id="green">e</s><s id="yellow">l</s
-        ><s id="pinkred">l</s><s id="violet">o</s><s id="blueviolet">,&nbsp;</s
-        ><s id="cyan">I</s><s id="green">'</s><s id="yellow">m&nbsp;</s
-        ><s id="violet">H</s><s id="pinkred">a</s><s id="blueviolet">r</s
-        ><s id="cyan">s</s><s id="green">h.</s>
+        <s id="cyan">H</s><s id="green">e</s><s id="yellow">y</s><s>👋</s
+        ><s id="blueviolet">,&nbsp;</s><s id="cyan">I</s><s id="green">'</s
+        ><s id="yellow">m&nbsp;</s><s id="violet">H</s><s id="pinkred">a</s
+        ><s id="blueviolet">r</s><s id="cyan">s</s><s id="green">h.</s>
       </h1>
       <h1 class="row" style="color: white;">
         <s id="yellow">a&nbsp;</s><s id="violet">f</s><s id="pinkred">u</s
         ><s id="cyan">l</s><s id="green">l</s><s id="yellow">-</s
         ><s id="blueviolet">s</s><s id="green">t</s><s id="pinkred">a</s
-        ><s id="yellow">c</s><s id="green">k&nbsp;</s><s id="violet">d</s
+        ><s id="yellow">c</s><s id="green">k&nbsp;</s><s id="violet pl-m-1">d</s
         ><s id="blueviolet">e</s><s id="yellow">v</s><s id="pinkred">e</s
         ><s id="violet">l</s><s id="pinkred">o</s><s id="green">p</s
         ><s id="yellow">e</s><s id="blueviolet">r</s>

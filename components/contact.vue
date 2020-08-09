@@ -4,7 +4,10 @@
       I'm always intrested about cool stuff. Are you minding a project?
     </h1>
     <div class="contact-link cursor">
-      Let's talk<i class="im im-arrow-right"></i>
+      <a
+        href="mailto:me@iamharsh.dev?subject=Hey, I'm minding a cool project for you."
+        >Let's talk<i class="im im-arrow-right"></i
+      ></a>
     </div>
   </div>
 </template>

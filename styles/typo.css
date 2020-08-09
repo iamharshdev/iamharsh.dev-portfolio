@@ -148,12 +148,16 @@ ul li {
 
   h1,
   .h1 {
-    font-size: 1.80rem;
+    font-size: 1.60rem;
+  }
+
+  .header h1:nth-of-type(2) {
+    font-size: 2.17rem;
   }
 
   h2,
   .h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   h3,
@@ -190,6 +194,8 @@ ul li {
 
   .contact-link {
     font-size: 2.5rem !important;
+    -webkit-user-select: none;
+    cursor:pointer;
   }
 }
 
