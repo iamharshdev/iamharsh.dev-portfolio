@@ -736,7 +736,6 @@ ul li:focus,
 
 .text {
   font-family: "Pero", sans-serif;
-  font-weight: lighter;
   font-size: 54px;
 }
 
@@ -747,7 +746,7 @@ ul li:focus,
 .text-9,
 .text-11 {
   color: rgba(255, 255, 255, 0);
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 @keyframes blink {

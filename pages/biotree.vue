@@ -85,9 +85,9 @@ export default {
   mounted() {
     if (process.browser) {
       const overlay = document.getElementById('preloader')
-      setTimeout(() => {
+      document.addEventListener('load', function () {
         overlay.style.display = 'none'
-      }, 3000)
+      })
       // eslint-disable-next-line no-undef
       luxy.init({
         // selector of main container
