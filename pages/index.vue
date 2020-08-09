@@ -64,7 +64,7 @@ export default {
       const overlay = document.getElementById('preloader')
       setTimeout(() => {
         overlay.style.display = 'none'
-      }, 3000)
+      }, 4200)
       // eslint-disable-next-line no-undef
       luxy.init({
         // selector of main container
