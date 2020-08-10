@@ -745,8 +745,7 @@ ul li:focus,
 .text-8,
 .text-9,
 .text-11 {
-  color: rgba(255, 255, 255, 0);
-  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  color: #fff;
 }
 
 @keyframes blink {
