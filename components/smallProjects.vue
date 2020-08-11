@@ -35,42 +35,42 @@ export default {
       projects: [
         {
           title: 'PhisCam - Take WebcamShots of victim using a link',
-          img: 'phiscam.webp',
+          img: 'phiscam.jpg',
           link: 'https://github.com/iamharshdev/Phiscam',
         },
         {
           title: 'Electron Cursor.js',
-          img: 'electron_cursor.webp',
+          img: 'electron_cursor.jpg',
           link: 'https://github.com/iamharshdev/electron-cursor.js',
         },
         {
           title: 'GitHub Bot - Automate your github',
-          img: 'gitbot.webp',
+          img: 'gitbot.jpg',
           link: 'https://github.com/iamharshdev/GithubBot',
         },
         {
           title: 'FUCKUIP.py - Details of any ip address',
-          img: 'fuckuip.webp',
+          img: 'fuckuip.jpg',
           link: 'https://github.com/iamharshdev/FUCKUIP',
         },
         {
           title: 'imageForWeb.py',
-          img: 'compressimg.webp',
+          img: 'compressimg.jpg',
           link: 'https://github.com/iamharshdev/imagesForWeb.py',
         },
         {
           title: 'InstagramBot.py - Get more instagram reach',
-          img: 'instabot.webp',
+          img: 'instabot.jpg',
           link: 'https://github.com/iamharshdev/InstgramBot',
         },
         {
           title: 'HotelManagement.js - Automate your hotel things using python',
-          img: 'hotel.webp',
+          img: 'hotel.jpg',
           link: 'https://github.com/iamharshdev/HotelManagment',
         },
         {
           title: 'ProtonYTD - YouTube video downloader [Node.js]',
-          img: 'protonytd.webp',
+          img: 'protonytd.jpg',
           link: 'https://protonytd.herokuapp.com/',
         },
       ],

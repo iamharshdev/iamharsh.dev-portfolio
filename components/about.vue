@@ -65,6 +65,7 @@ export default {
           'Mobile Development',
           'Python',
           'MySQL',
+          'MongoDB',
           'XML',
           'JAVA',
           'REST APIs',

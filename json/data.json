@@ -7,22 +7,22 @@
   "projects": {
     "walldrops": {
       "link":"https://play.google.com/store/apps/details?id=com.electronlabs.walldrops&hl=en",
-      "img":"walldrops.webp",
-      "images": ["walldrops1.webp", "walldrops2.webp", "walldrops3.webp"],
+      "img":"walldrops.jpg",
+      "images": ["walldrops1.jpg", "walldrops2.jpg", "walldrops3.jpg"],
       "para":[
         "WallDrops:4K Wallpapers is a free app that has a large varities of 4K Wallpapers as well as Full HD Wallpapers/backgrounds. ",
         "We'll be constantly designing new wallpaper for you. This means new high-quality content within the app every day. We add daily new Unique as well as Top Quality 4K Wallpapers | Full HD Wallpapers. WallDrops app is a great tool for 4K Backgrounds | Full HD Backgrounds and it is a Wallpaper Store for a user where they can experience best handpicked backgrounds and creative wallpapers. The app is designed for Android phone & tablet, so the app works on any screen sizes or screen resolutions."
       ]
     },
     "biotree": {
-      "img":"biotree.webp",
+      "img":"biotree.jpg",
       "link":"https://biotree.now.sh/",
       "images": [
-        "Biotree_1.webp",
-        "Biotree_2.webp",
-        "Biotree_3.webp",
-        "Biotree_4.webp",
-        "Biotree_5.webp"
+        "Biotree_1.jpg",
+        "Biotree_2.jpg",
+        "Biotree_3.jpg",
+        "Biotree_4.jpg",
+        "Biotree_5.jpg"
       ],
       "para": [
         "This is my first SaaS-based project/product and frankly speaking, this was just started as a fun project like I was wanted to create something like linktr.ee from the very first day I started web development and later on I discussed the idea with a very good friend of mine who is also a web/mobile developer and he is very good at back-end so I thought this is the right time to build this project and it took us a month to complete this project. Biotree is built using Nuxt.js(Vue.js framework) for the front-end and if we talk about the back-end stacks so it was Python Django for the rest API and PostgreSQL for the database and to be honest this project taught me a lot of things in the development and project management.",

@@ -37,36 +37,36 @@ export default {
   data() {
     return {
       Projects: [
-        { name: 'Biotree', img: 'biotree.webp', link: '/biotree' },
-        { name: 'Walldrops', img: 'walldrops.webp', link: '/walldrops' },
+        { name: 'Biotree', img: 'biotree.jpg', link: '/biotree' },
+        { name: 'Walldrops', img: 'walldrops.jpg', link: '/walldrops' },
         {
           name: 'Falsomlake Carwash Website',
-          img: 'falsomcarwash.webp',
+          img: 'falsomcarwash.jpg',
           link: 'https://folsomhandcarwash.com/',
         },
         {
           name: 'Contra CSS Kit',
-          img: 'contracss.webp',
+          img: 'contracss.jpg',
           link: 'https://codepen.io/harsh-vardhan/pen/RwWRqKE',
         },
         {
           name: 'Gocorona : COVID Stats Website',
-          img: 'gocorona.webp',
+          img: 'gocorona.jpg',
           link: 'https://gocorona.wtf/',
         },
         {
           name: 'COVID News API',
-          img: 'coronews.webp',
+          img: 'coronews.jpg',
           link: 'https://coronews.iamharsh.dev/',
         },
         {
           name: 'Leit-anim : Animation Library',
-          img: 'leit-anim.webp',
+          img: 'leit-anim.jpg',
           link: 'https://pensive-curran-1d0a11.netlify.app/',
         },
         {
           name: 'Neutron Code Editor',
-          img: 'neutron_Code_editor.webp',
+          img: 'neutron_Code_editor.jpg',
           link: 'https://neutron.iamharsh.dev',
         },
       ],
