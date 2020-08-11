@@ -11,7 +11,7 @@
           <span class="cool-link" @click="home()">Home</span>
         </li>
         <li class="rev-block">
-          <a href="https://electron.iamharsh.dev/" target="blank"
+          <a href="https://gallant-spence-15aeb6.netlify.app/" target="blank"
             ><span class="cool-link">Blog</span></a
           >
         </li>
