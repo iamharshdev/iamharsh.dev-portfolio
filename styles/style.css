@@ -870,7 +870,7 @@ ul li:focus,
 
 @media (max-width: 768px) {
   .text {
-    font-size: 110% !important;
+    font-size: 120% !important;
   }
 }
 
