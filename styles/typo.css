@@ -23,8 +23,9 @@ h1,
 }
 
 p {
-  font-size: 1rem;
-  line-height: 2rem;
+  font-family: 'Biko', sans-serif;
+  font-size: 24px;
+  line-height: 2.5rem;
 }
 
 h2,
@@ -74,12 +75,6 @@ h6,
 
 .cool-link {
   font-family: 'Pero', sans-serif;
-}
-
-p {
-  font-family: 'Biko', sans-serif;
-  font-size: 24px;
-  line-height: 2.5rem;
 }
 
 .lead {
@@ -134,6 +129,11 @@ small {
   font-family: 'Peroaf', sans-serif;
 }
 
+
+li {
+  list-style: none;
+}
+
 ul li {
   font-family: 'Biko', sans-serif;
 }
@@ -148,11 +148,11 @@ ul li {
 
   h1,
   .h1 {
-    font-size: 1.60rem;
+    font-size: 125% !important;
   }
 
   .header h1:nth-of-type(2) {
-    font-size: 2.17rem;
+    font-size: 125% !important;
   }
 
   h2,
@@ -162,7 +162,7 @@ ul li {
 
   h3,
   .h3 {
-    font-size: 1.3rem;
+    font-size: 110%;
   }
 
   h4,
@@ -209,10 +209,6 @@ a:hover {
   text-decoration: none;
   opacity: 0.8;
   transition: 0.3s ease;
-}
-
-li {
-  list-style: none;
 }
 
 button {

@@ -49,7 +49,7 @@ export default {
           link:
             'https://gallant-spence-15aeb6.netlify.app/git/2020/03/13/shorten-git-commands-with-git-alias',
           img:
-            https://gallant-spence-15aeb6.netlify.app/assets/uploads/Shorten%20git%20commands%20with%20git%20aliases.png',
+            'https://gallant-spence-15aeb6.netlify.app/assets/uploads/Shorten%20git%20commands%20with%20git%20aliases.png',
         },
         {
           title: 'Create A Dark/Light Theme Switch with CSS/JS',

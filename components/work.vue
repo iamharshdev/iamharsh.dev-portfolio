@@ -42,7 +42,7 @@ export default {
         {
           name: 'Falsomlake Carwash Website',
           img: 'falsomcarwash.webp',
-          link: 'https://folsomlakehandcarwash.com/',
+          link: 'https://folsomhandcarwash.com/',
         },
         {
           name: 'Contra CSS Kit',
@@ -62,7 +62,7 @@ export default {
         {
           name: 'Leit-anim : Animation Library',
           img: 'leit-anim.webp',
-          link: 'https://saxxtext.iamharsh.dev/',
+          link: 'https://pensive-curran-1d0a11.netlify.app/',
         },
         {
           name: 'Neutron Code Editor',
