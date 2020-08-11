@@ -710,7 +710,7 @@ ul li:focus,
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(0, 0, 0);
+  background: #f5efe1;
   animation: slide-out-container 3s cubic-bezier(0.97, 0.01, 0.36, 0.99) 2.5s;
   animation-fill-mode: forwards;
 }
@@ -730,7 +730,7 @@ ul li:focus,
 }
 
 .text-wrapper {
-  color: white;
+  color: rgb(0, 0, 0);
   position: absolute;
 }
 
@@ -745,7 +745,8 @@ ul li:focus,
 .text-8,
 .text-9,
 .text-11 {
-  color: #fff;
+  color: #f5efe1;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 @keyframes blink {
