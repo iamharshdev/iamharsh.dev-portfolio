@@ -87,7 +87,7 @@ export default {
       const overlay = document.getElementById('preloader')
       setTimeout(() => {
         overlay.style.display = 'none'
-      }, 4000)
+      }, 5000)
       // eslint-disable-next-line no-undef
       luxy.init({
         // selector of main container
@@ -96,17 +96,20 @@ export default {
         wrapperSpeed: 0.08,
         targetSpeed: 0.02,
       })
-      const content = document.querySelector('#distort')
-      let currentPos = window.pageYOffset
-      const callDistort = function () {
-        const newPos = window.pageYOffset
-        const diff = newPos - currentPos
-        const speed = diff * 0.1
-        content.style.transform = 'skewY(' + speed + 'deg)'
-        currentPos = newPos
-        requestAnimationFrame(callDistort)
+      const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent)
+      if (isMobile) {
+        const content = document.querySelector('#distort')
+        let currentPos = window.pageYOffset
+        const callDistort = function () {
+          const newPos = window.pageYOffset
+          const diff = newPos - currentPos
+          const speed = diff * 0.1
+          content.style.transform = 'skewY(' + speed + 'deg)'
+          currentPos = newPos
+          requestAnimationFrame(callDistort)
+        }
+        callDistort()
       }
-      callDistort()
     }
   },
   methods: {

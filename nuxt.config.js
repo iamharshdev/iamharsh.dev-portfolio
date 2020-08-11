@@ -17,7 +17,7 @@ export default {
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
-      { name: 'theme-color', content: '#00000' },
+      { name: 'theme-color', content: '#000000' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
@@ -27,7 +27,7 @@ export default {
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/assets/dp/dp1.jpg' },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700',
@@ -96,8 +96,8 @@ export default {
       short_name: 'iamharsh.dev',
       name: 'Harsh Vardhan',
       start_url: '/',
-      theme_color: '#000',
-      background_color: '#000',
+      theme_color: '#000000',
+      background_color: '#000000',
       description: 'Harsh Vardhan | Web dev & UI/UX aficionado',
     },
   },
