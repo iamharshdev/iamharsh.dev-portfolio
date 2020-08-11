@@ -810,11 +810,11 @@ ul li:focus,
   }
 
   1% {
-    opacity: 100%;
+    opacity: 1;
   }
 
   19% {
-    opacity: 100%;
+    opacity: 1;
   }
 
   20% {
@@ -826,11 +826,11 @@ ul li:focus,
   }
 
   40% {
-    opacity: 100%;
+    opacity: 1;
   }
 
   59% {
-    opacity: 100%;
+    opacity: 1;
   }
 
   60% {
@@ -842,11 +842,11 @@ ul li:focus,
   }
 
   80% {
-    opacity: 100%;
+    opacity: 1;
   }
 
   100% {
-    opacity: 100%;
+    opacity: 1;
   }
 }
 
@@ -856,11 +856,11 @@ ul li:focus,
   }
 
   1% {
-    opacity: 100%;
+    opacity: 1;
   }
 
   99% {
-    opacity: 100%;
+    opacity: 1;
   }
 
   100% {
