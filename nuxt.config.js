@@ -27,7 +27,7 @@ export default {
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/assets/dp/dp1.jpg' },
+      { rel: 'icon', type: 'image/x-icon', href: '/logo.jpg' },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700',
