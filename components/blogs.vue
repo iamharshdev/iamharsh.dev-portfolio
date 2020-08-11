@@ -33,44 +33,44 @@ export default {
         {
           title: 'Vue.js Getting started with vuejs',
           img:
-            'https://electron.iamharsh.dev/assets/uploads/Vue.js-Crash-course.png',
+            'https://gallant-spence-15aeb6.netlify.app/assets/uploads/Vue.js-Crash-course.png',
           link:
-            'https://electron.iamharsh.dev/webdevelopment/javascript/2020/04/10/vue.js-getting-started-with-vuejs',
+            'https://gallant-spence-15aeb6.netlify.app/webdevelopment/javascript/2020/04/10/vue.js-getting-started-with-vuejs',
         },
         {
           title: 'Getting Started with Node.js & Express',
           img:
-            'https://electron.iamharsh.dev/assets/uploads/pink-and-blue-geometric-technology-keynote.png',
+            'https://gallant-spence-15aeb6.netlify.app/assets/uploads/pink-and-blue-geometric-technology-keynote.png',
           link:
-            'https://electron.iamharsh.dev/webdevelopment/javascript/2020/03/20/getting-started-with-node-js-express.html',
+            'https://gallant-spence-15aeb6.netlify.app/webdevelopment/javascript/2020/03/20/getting-started-with-node-js-express.html',
         },
         {
           title: 'Shorten git commands with git aliases',
           link:
-            'https://electron.iamharsh.dev/git/2020/03/13/shorten-git-commands-with-git-alias',
+            'https://gallant-spence-15aeb6.netlify.app/git/2020/03/13/shorten-git-commands-with-git-alias',
           img:
-            'https://electron.iamharsh.dev/assets/uploads/Shorten%20git%20commands%20with%20git%20aliases.png',
+            https://gallant-spence-15aeb6.netlify.app/assets/uploads/Shorten%20git%20commands%20with%20git%20aliases.png',
         },
         {
           title: 'Create A Dark/Light Theme Switch with CSS/JS',
           img:
-            'https://electron.iamharsh.dev/assets/uploads/is-dark-mode-better-for-you-980x551.png',
+            'https://gallant-spence-15aeb6.netlify.app/assets/uploads/is-dark-mode-better-for-you-980x551.png',
           link:
-            'https://electron.iamharsh.dev/2020/03/03/create-a-theme-switch-with-css-&-js',
+            'https://gallant-spence-15aeb6.netlify.app/2020/03/03/create-a-theme-switch-with-css-&-js',
         },
         {
           title: 'The way around Structed Query Language (SQL)',
           img:
-            'https://electron.iamharsh.dev/assets/uploads/screenshot_20200309-214943~2.png',
+            'https://gallant-spence-15aeb6.netlify.app/assets/uploads/screenshot_20200309-214943~2.png',
           link:
-            'https://electron.iamharsh.dev/rdbms/crash_course/2020/03/09/the-way-around-structed-query-language-sql.html',
+            'https://gallant-spence-15aeb6.netlify.app/rdbms/crash_course/2020/03/09/the-way-around-structed-query-language-sql.html',
         },
         {
           title: 'GIT CLI CRASH COURSE',
           img:
-            'https://electron.iamharsh.dev/assets/uploads/screenshot_20200307-002316.png',
+            'https://gallant-spence-15aeb6.netlify.app/assets/uploads/screenshot_20200307-002316.png',
           link:
-            'https://electron.iamharsh.dev/crash_course/git/2020/03/06/git-cli-crash-course.html',
+            'https://gallant-spence-15aeb6.netlify.app/crash_course/git/2020/03/06/git-cli-crash-course.html',
         },
       ],
     }
