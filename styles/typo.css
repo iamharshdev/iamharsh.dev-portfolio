@@ -148,11 +148,11 @@ ul li {
 
   h1,
   .h1 {
-    font-size: 135% !important;
+    font-size: 140% !important;
   }
 
   .header h1:nth-of-type(2) {
-    font-size: 135% !important;
+    font-size: 120% !important;
   }
 
   h2,
