@@ -874,6 +874,12 @@ ul li:focus,
   }
 }
 
+@media (max-width: 380px) {
+  .text {
+    font-size: 95% !important;
+  }
+}
+
 #preloader {
   top: 0;
   bottom: 0;
