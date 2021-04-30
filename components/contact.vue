@@ -1,7 +1,7 @@
 <template>
   <div class="contact wid80 center pt-3 pb-3">
     <h1 class="text-white pb-2">
-      I'm always intrested about cool stuff. Are you minding a project?
+      I'm always interested in cool stuff. Are you minding a project?
     </h1>
     <div class="contact-link cursor">
       <a
