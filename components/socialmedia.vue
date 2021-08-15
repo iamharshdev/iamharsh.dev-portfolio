@@ -9,16 +9,11 @@
       </p>
     </div>
     <div class="row wid100 insta mb-3 mt-3">
-      <script src="https://embedsocial.com/js/iframe.js"></script>
       <iframe
         style="border: 0; width: 100%; height: 100%;"
         scrolling="no"
         src="https://embedsocial.com/facebook_album/pro_hashtag/cb80182cdc8000469a573020e486065f41644e87"
       ></iframe>
-      <script>
-        iFrameResize()
-        document.querySelector('#es-header').remove()
-      </script>
     </div>
     <div class="center-text mt-4 mb-4">
       <a href="https://instgram.com/iamharsh.dev" target="blank"
@@ -84,8 +79,8 @@
     </div>
   </div>
 </template>
-
 <script>
+/* eslint-disable no-undef */
 export default {
   data() {
     return {
@@ -116,6 +111,9 @@ export default {
         },
       ],
     }
+  },
+  mounted() {
+    iFrameResize()
   },
 }
 </script>

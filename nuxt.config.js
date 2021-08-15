@@ -52,6 +52,9 @@ export default {
       {
         src: 'https://unpkg.com/wow.js@1.2.2/dist/wow.min.js',
       },
+      {
+        src: 'https://embedsocial.com/js/iframe.js',
+      },
     ],
   },
   /*
