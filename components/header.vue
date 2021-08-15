@@ -1,6 +1,6 @@
 <template>
-  <div id="section" class="header pt-4 row wid80 pb-4 center">
-    <section class="col">
+  <div id="section" class="header vh pt-4 row wid80 pb-4 center">
+    <section class="col flex-center">
       <h1 class="mt-4 row" style="color: white;">
         <s id="cyan">H</s><s id="green">e</s><s id="yellow">y</s><s>👋</s
         ><s id="blueviolet">,&nbsp;</s><s id="cyan">I</s><s id="green">'</s

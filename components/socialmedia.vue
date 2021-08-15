@@ -9,14 +9,16 @@
       </p>
     </div>
     <div class="row wid100 insta mb-3 mt-3">
-      <a
-        v-for="post in posts"
-        :key="post"
-        class="p-1 col-md-4"
-        :href="post.link"
-      >
-        <img :src="post.img" />
-      </a>
+      <script src="https://embedsocial.com/js/iframe.js"></script>
+      <iframe
+        style="border: 0; width: 100%; height: 100%;"
+        scrolling="no"
+        src="https://embedsocial.com/facebook_album/pro_hashtag/cb80182cdc8000469a573020e486065f41644e87"
+      ></iframe>
+      <script>
+        iFrameResize()
+        document.querySelector('#es-header').remove()
+      </script>
     </div>
     <div class="center-text mt-4 mb-4">
       <a href="https://instgram.com/iamharsh.dev" target="blank"
@@ -87,38 +89,6 @@
 export default {
   data() {
     return {
-      posts: [
-        {
-          link: 'https://www.instagram.com/p/B94ER5ag_tP/',
-          img:
-            'https://scontent-del1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/90089032_533538260913333_5149727173154807493_n.jpg?_nc_ht=scontent-del1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=pQ8woKARqm4AX_-Vk0e&oh=bd9960769fd6e81f7923fe76c7217c2b&oe=5F404582',
-        },
-        {
-          link: 'https://www.instagram.com/p/CBVwheDg-q1/',
-          img:
-            'https://scontent-del1-1.cdninstagram.com/v/t51.2885-15/e35/103368462_259354398726524_6714071372308053771_n.jpg?_nc_ht=scontent-del1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=DWYOZvkGbyMAX9itQ0Q&oh=e3bea686693e0ac15034490f80d61206&oe=5F400D04',
-        },
-        {
-          link: 'https://www.instagram.com/p/CBxgFr7AHNX/',
-          img:
-            'https://scontent-del1-1.cdninstagram.com/v/t51.2885-15/e35/104441400_214591036247536_3347748870889536060_n.jpg?_nc_ht=scontent-del1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=v-dTl92m5IUAX_EkJzE&oh=958fef8745562be2e4ed3fe34160aefe&oe=5F4086D1',
-        },
-        {
-          link: 'https://www.instagram.com/p/B-10qDEgZTG/',
-          img:
-            'https://scontent-del1-1.cdninstagram.com/v/t51.2885-15/e35/92467628_206236780677620_1145407459707756669_n.jpg?_nc_ht=scontent-del1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=Yw6mWu4wUTMAX8nkd0E&oh=050709fa45d7de454c5e404ba0786a9b&oe=5F403AD9',
-        },
-        {
-          link: 'https://www.instagram.com/p/CB5TvzUA74_/',
-          img:
-            'https://scontent-del1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/104559835_221910432103442_1810489209651952968_n.jpg?_nc_ht=scontent-del1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=U12MuwHaFvoAX-ic5MV&oh=77930176fcb4f04d39fae620791691d6&oe=5F42919E',
-        },
-        {
-          link: 'https://www.instagram.com/p/CCDxWpQAJQp/',
-          img:
-            'https://scontent-del1-1.cdninstagram.com/v/t51.2885-15/e35/105968284_733200787511127_1743119767074285360_n.jpg?_nc_ht=scontent-del1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=WgVkHgIpb5YAX-flbZc&oh=87cc4a3f5de251b2d810148fdd13874b&oe=5F430C75',
-        },
-      ],
       youtube: [
         {
           link: 'https://youtu.be/gOoLgZ6TlA8',

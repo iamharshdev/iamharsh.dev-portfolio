@@ -231,7 +231,6 @@
 }
 
 @media (max-width: 768px) {
-
   body,
   html {
     overflow-x: hidden;
@@ -454,12 +453,10 @@ body {
   overflow-x: hidden;
 }
 
-
 #section {
   transition: transform 0.25s;
   will-change: transform;
 }
-
 .header .img {
   position: absolute;
   width: 400px;
@@ -484,7 +481,6 @@ body {
   background-size: cover;
   transition-duration: 600ms;
 }
-
 
 .header .img-4 {
   background: no-repeat 50% 50%;
@@ -516,18 +512,17 @@ body {
 }
 
 .small_projects ul li {
-  padding: .5rem;
+  padding: 0.5rem;
   display: inline-block;
   list-style: none;
-  transition: all .3s cubic-bezier(.165, .84, .44, 1);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 ul li:focus,
 .small_projects ul li:hover {
-  transition: all .3s cubic-bezier(.165, .84, .44, 1);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   padding-left: 16px;
 }
-
 
 .small_projects .container {
   position: absolute;
@@ -550,7 +545,7 @@ ul li:focus,
   z-index: 1;
   animation: reveal 1s reverse forwards;
   transform-origin: right;
-  animation-delay: .2s;
+  animation-delay: 0.2s;
 }
 
 .blogs_card img {
@@ -581,7 +576,7 @@ ul li:focus,
   object-fit: cover;
 }
 
-.small_projects li:hover+.container {
+.small_projects li:hover + .container {
   opacity: 1;
   display: block;
 }
@@ -602,13 +597,13 @@ ul li:focus,
   margin-top: 5px;
   height: 2px;
   width: 0;
-  transition: width .5s ease;
+  transition: width 0.5s ease;
   background: #fff;
 }
 
 .cool-link:hover::after {
   width: 100%;
-  transition: width .5s ease;
+  transition: width 0.5s ease;
 }
 
 .cool-link:hover,
@@ -623,8 +618,6 @@ ul li:focus,
 .blogs_card {
   width: 100%;
 }
-
-
 
 .h-6 {
   height: 1.5rem;
@@ -645,7 +638,7 @@ ul li:focus,
   transition: 0.3s all ease;
   color: #000;
   cursor: pointer;
-  transform: translateY(-.4rem);
+  transform: translateY(-0.4rem);
   background: #fff;
 }
 
@@ -735,7 +728,7 @@ ul li:focus,
 }
 
 .text {
-  font-family: "Pero", sans-serif;
+  font-family: 'Pero', sans-serif;
   font-size: 54px;
 }
 
@@ -775,7 +768,8 @@ ul li:focus,
 }
 
 .text-6 {
-  animation: blink 0.8s linear 0.4s, blink 0.8s linear 2.5s, slide-out 1s linear 3.2s;
+  animation: blink 0.8s linear 0.4s, blink 0.8s linear 2.5s,
+    slide-out 1s linear 3.2s;
   opacity: 0;
 }
 
@@ -950,8 +944,8 @@ button {
   text-align: left;
   padding-left: 0;
   width: 80%;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   color: #fff;
 }
 
@@ -1042,4 +1036,8 @@ button:hover .button-text {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.vh {
+  height: 100vh;
 }

@@ -23,7 +23,8 @@ import data from '../json/data.json'
 export default {
   data() {
     return {
-      myimages: 'Screenshot_2021-04-09-18-37-12-88_f890dc7e3b036af087bf4fc99a642c7d.jpg',
+      myimages:
+        'Screenshot_2021-04-09-18-37-12-88_f890dc7e3b036af087bf4fc99a642c7d.jpg',
       about: data,
     }
   },
